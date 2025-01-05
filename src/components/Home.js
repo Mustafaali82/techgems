@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="home-container"> 
-      <h1 className="home-title">Inspirational Personalities</h1>
+      <h1 className="home-title">Tech Gems</h1>
       <div className="personality-cards">
         {personalities.map((person) => (
           <div className="card" key={person.id}>
@@ -16,7 +16,7 @@ function Home() {
             />
             <div className="card-content">
               <h2>{person.name}</h2>
-              <p>{person.born}</p>
+              <p>{person.description}</p>
               <Link to={`/story/${person.id}`} className="explore-btn">
                 Explore
               </Link>

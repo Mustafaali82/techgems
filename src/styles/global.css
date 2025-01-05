@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -28,8 +28,20 @@ body {
     color: #ffffff;
 }
 
-.dark-mode button{
+.dark-mode button {
     color: white;
+}
+
+.dark-mode .explore-btn {
+    background-color: #181818;
+    color: white;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+.dark-mode .explore-btn:hover {
+    background-color: white;
+    color: black;
 }
 
 .dark-mode .navbar {
@@ -93,6 +105,7 @@ body {
 .home-title {
     font-size: 2.5rem;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .personality-cards {
@@ -103,9 +116,9 @@ body {
 }
 
 .card {
-    width: 250px;
+    width: 350px;
     border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(136, 136, 136, 0.1);
+    box-shadow: 0px 4px 10px rgba(136, 136, 136, 0.275);
     overflow: hidden;
     transition: transform 0.3s ease;
 }
@@ -126,26 +139,31 @@ body {
 }
 
 .card-content h2 {
-    font-size: 1.3rem;
+    font-size: 1.9rem;
+    margin-bottom: 15px;
 }
 
 .card-content p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    line-height: 30px;
+    color: #6d6d6d;
 }
 
 .explore-btn {
     margin-top: 15px;
     display: inline-block;
     padding: 10px 20px;
-    background-color: #4caf50;
-    color: white;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1rem;
+    border: 2px solid black;
+    transition: .5s;
 }
 
 .explore-btn:hover {
-    background-color: #45a049;
+    background-color: black;
+    color: white;
 }
 
 /* Story Page */
