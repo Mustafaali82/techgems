@@ -21,21 +21,6 @@ const Story = ({ personalities }) => {
           <p>
             <strong>Known For:</strong> {person.description}
           </p>
-          <p>
-            <strong>Course/Education:</strong>{" "}
-            {person.courseLink ? (
-              <a
-                href={person.courseLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="course-link"
-              >
-                {person.course}
-              </a>
-            ) : (
-              person.course
-            )}
-          </p>
         </div>
       </div>
       <div className="story-content">
