@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="home-container">
+    <div className="home-container"> 
       <h1 className="home-title">Inspirational Personalities</h1>
       <div className="personality-cards">
         {personalities.map((person) => (
