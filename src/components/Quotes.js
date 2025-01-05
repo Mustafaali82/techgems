@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 function Quotes() {
   const defaultQuotes = [
@@ -8,45 +8,14 @@ function Quotes() {
     "If you can dream it, you can do it. - Walt Disney",
   ];
 
-  // Load quotes from localStorage or fallback to default
-  const loadQuotes = () => {
-    const savedQuotes = localStorage.getItem("quotes");
-    return savedQuotes ? JSON.parse(savedQuotes) : defaultQuotes;
-  };
-
-  const [quotes, setQuotes] = useState(loadQuotes);
+  const [quotes] = useState(defaultQuotes);
   const [currentQuote, setCurrentQuote] = useState(
     quotes[Math.floor(Math.random() * quotes.length)]
   );
-  const [newQuote, setNewQuote] = useState("");
-  const [newAuthor, setNewAuthor] = useState("");
-  const [showForm, setShowForm] = useState(false);
-
-  // Save quotes to localStorage whenever updated
-  useEffect(() => {
-    localStorage.setItem("quotes", JSON.stringify(quotes));
-  }, [quotes]);
 
   const handleNewQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     setCurrentQuote(quotes[randomIndex]);
-  };
-
-  const handleAddQuote = (e) => {
-    e.preventDefault();
-
-    if (!newQuote.trim()) {
-      alert("Please enter a quote.");
-      return;
-    }
-
-    const fullQuote = newAuthor ? `${newQuote} - ${newAuthor}` : newQuote;
-
-    setQuotes((prevQuotes) => [...prevQuotes, fullQuote]);
-    setNewQuote("");
-    setNewAuthor("");
-    setShowForm(false);
-    alert("Quote added successfully!");
   };
 
   return (
@@ -60,33 +29,6 @@ function Quotes() {
       <button style={styles.button} onClick={handleNewQuote}>
         Show Another Quote
       </button>
-      <button
-        style={styles.secondaryButton}
-        onClick={() => setShowForm((prev) => !prev)}
-      >
-        {showForm ? "Close Form" : "➕ Add Your Own Quote"}
-      </button>
-
-      {showForm && (
-        <form style={styles.form} onSubmit={handleAddQuote}>
-          <textarea
-            style={styles.textarea}
-            placeholder="Enter your quote here"
-            value={newQuote}
-            onChange={(e) => setNewQuote(e.target.value)}
-          />
-          <input
-            style={styles.input}
-            type="text"
-            placeholder="Author (Optional)"
-            value={newAuthor}
-            onChange={(e) => setNewAuthor(e.target.value)}
-          />
-          <button style={styles.button} type="submit">
-            Add Quote
-          </button>
-        </form>
-      )}
     </div>
   );
 }
@@ -130,48 +72,6 @@ const styles = {
     borderRadius: "5px",
     cursor: "pointer",
     transition: "background-color 0.3s",
-  },
-  secondaryButton: {
-    marginTop: "10px",
-    padding: "10px 20px",
-    fontSize: "1rem",
-    fontWeight: "bold",
-    backgroundColor: "transparent",
-    border: "2px solid #007BFF",
-    borderRadius: "5px",
-    cursor: "pointer",
-    transition: "all 0.3s",
-  },
-  buttonHover: {
-    backgroundColor: "#0056b3",
-  },
-  form: {
-    marginTop: "20px",
-    textAlign: "left",
-    maxWidth: "500px",
-    margin: "0 auto",
-    backgroundColor: "#fff",
-    padding: "20px",
-    borderRadius: "10px",
-    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-  },
-  textarea: {
-    width: "100%",
-    height: "100px",
-    padding: "10px",
-    border: "1px solid #ddd",
-    borderRadius: "5px",
-    fontSize: "1rem",
-    fontFamily: "'Roboto', sans-serif",
-  },
-  input: {
-    width: "100%",
-    padding: "10px",
-    border: "1px solid #ddd",
-    borderRadius: "5px",
-    fontSize: "1rem",
-    fontFamily: "'Roboto', sans-serif",
-    margin: "10px 0",
   },
 };
 

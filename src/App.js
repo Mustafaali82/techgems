@@ -10,7 +10,6 @@ import personalities from "./data/personalities";
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
-  // Check localStorage for saved theme preference
   useEffect(() => {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme === 'dark') {
@@ -18,7 +17,6 @@ function App() {
     }
   }, []);
 
-  // Toggle theme and save to localStorage
   const toggleDarkMode = () => {
     setDarkMode((prevMode) => {
       const newMode = !prevMode;
