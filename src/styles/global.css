@@ -10,8 +10,6 @@ body {
     height: 100%;
 }
 
-/* Theme Styling */
-
 /* Light Mode */
 .light-mode {
     background-color: #ffffff;
@@ -23,6 +21,7 @@ body {
 }
 
 /* Dark Mode */
+
 .dark-mode {
     background-color: #181818;
     color: #ffffff;
@@ -52,6 +51,14 @@ body {
     color: white;
 }
 
+.theme-toggle {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 /* Navbar Styles */
 .navbar {
     display: flex;
@@ -61,15 +68,6 @@ body {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.theme-toggle {
-    background: none;
-    border: none;
-    color: inherit;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-/* Navbar */
 
 .navbar-list {
     list-style-type: none;
@@ -95,6 +93,7 @@ body {
 
 
 /* Home Page */
+
 .home-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -129,7 +128,7 @@ body {
 
 .person-image {
     width: 100%;
-    height: 200px;
+    height: 250px;
     object-fit: cover;
     border-bottom: 1px solid #ddd;
 }
@@ -145,7 +144,7 @@ body {
 
 .card-content p {
     font-size: 1rem;
-    line-height: 30px;
+    line-height: 28px;
     color: #6d6d6d;
 }
 
@@ -167,25 +166,38 @@ body {
 }
 
 /* Story Page */
+
+.dark-mode .story-container {
+    background: none;
+}
+
+.story {
+    padding: 30px;
+}
+
 .story-container {
-    margin: 2rem auto;
-    max-width: 800px;
-    padding: 1.5rem;
+    margin: auto;
+    max-width: 1000px;
+    padding: 1.9rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background: white;
-    border-radius: 8px;
+    border-radius: 15px;
     height: 100%;
+    border: 5px solid white;
 }
 
 .story-header {
     display: flex;
     align-items: center;
+    flex-direction: column;
     gap: 1.5rem;
+    justify-content: center;
+    text-align: center;
 }
 
 .story-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     object-fit: cover;
     border: 2px solid #ddd;
@@ -193,28 +205,37 @@ body {
 
 .story-info h1 {
     margin-bottom: 0.5rem;
-    color: #333;
 }
 
 .story-info p {
-    margin: 0.3rem 0;
-    color: #555;
+    margin: 0.9rem 0;
 }
 
 .story-content h2 {
     margin-top: 1.5rem;
-    color: #222;
+    font-size: 2rem;
 }
 
+.light-mode .story-content p {
+    color: black;
+} 
+
 .story-content p {
-    color: #444;
-    line-height: 1.6;
+    line-height: 1.8;
     margin-top: 0.5rem;
+    font-size: 19px;
+    color: #8c8c8c;
+}
+
+.light-mode .story-links h3{
+    color: black;
 }
 
 .story-links h3 {
-    margin-top: 2rem;
-    color: #111;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .story-links ul {
@@ -223,11 +244,15 @@ body {
 }
 
 .story-links li {
-    margin: 0.5rem 0;
+    margin: 0.8rem 0;
+}
+
+.light-mode .story-links a {
+    color: black;
 }
 
 .story-links a {
-    color: #007acc;
+    color: white;
     text-decoration: none;
 }
 
@@ -291,6 +316,7 @@ body {
 }
 
 /* Highlighting selected plan */
+
 .pricing-card.selected {
     border: 2px solid #007bff;
     background-color: #e0f7fa;

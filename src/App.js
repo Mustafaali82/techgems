@@ -34,7 +34,7 @@ function App() {
           path="/story/:id"
           element={<Story personalities={personalities} />}
         />
-        <Route path="/quotes" element={<Quotes />} />{" "}
+        <Route path="/quotes" element={<Quotes />} />
         {/* <Route path="/pricing" element={<Pricing />} /> */}
       </Routes>
     </Router>
