@@ -2,7 +2,7 @@ const personalities = [
   {
     id: 1,
     name: "Paul Graham",
-    born: "November 13, 1964, Weymouth, England",
+    born: "November 13, 1964",
     description: "Co-founder of Y Combinator, investor, and essayist.",
     story: `
       Paul Graham was born on November 13, 1964, in **Weymouth, England**. His family moved to the United States when he was a child, and he developed a passion for technology and computer science early on. Graham was an outstanding student with a natural aptitude for mathematics, logic, and programming.
@@ -40,7 +40,7 @@ const personalities = [
   {
     id: 2,
     name: "Elon Musk",
-    born: "June 28, 1971, Pretoria, South Africa",
+    born: "June 28, 1971",
     description:
       "Entrepreneur, engineer, and inventor; Founder of SpaceX, Tesla, and other ventures.",
     story: `
@@ -83,7 +83,7 @@ const personalities = [
   {
     id: 3,
     name: "Mark Zuckerberg",
-    born: "May 14, 1984, White Plains, New York, USA",
+    born: "May 14, 1984",
     description:
       "Co-founder and CEO of Facebook, philanthropist, and technology innovator.",
     story: `
@@ -123,7 +123,7 @@ const personalities = [
   {
     id: 4,
     name: "Steve Jobs",
-    born: "February 24, 1955, San Francisco, California, USA",
+    born: "February 24, 1955",
     description: "Co-founder of Apple Inc., inventor, and business magnate.",
     story: `
       Steve Jobs was born on **February 24, 1955**, in **San Francisco, California**, USA. He was adopted shortly after birth by Clara and Paul Jobs, who raised him in **Mountain View**, California. Jobs developed an early interest in electronics, spending time in his father’s garage learning how things worked. His adoptive father helped him foster an interest in craftsmanship.
@@ -162,7 +162,7 @@ const personalities = [
   {
     id: 5,
     name: "Alan Turing",
-    born: "June 23, 1912, Maida Vale, London, England",
+    born: "June 23, 1912",
     description: "Mathematician, logician, and computer science pioneer.",
     story: `
       Alan Turing, born on **June 23, 1912**, in **Maida Vale, London**, is widely regarded as one of the most influential figures in the history of computer science. His work laid the foundations for modern computing, and his contributions during World War II helped win the war for the Allies by breaking the German Enigma code.
@@ -195,7 +195,7 @@ const personalities = [
   {
     id: 6,
     name: "Ton Roosendaal",
-    born: "January 20, 1968, The Hague, Netherlands",
+    born: "January 20, 1968",
     description:
       "Founder and chairman of Blender Foundation, creator of Blender.",
     story: `
@@ -232,7 +232,7 @@ const personalities = [
   {
     id: 7,
     name: "Linus Torvalds",
-    born: "December 28, 1969, Helsinki, Finland",
+    born: "December 28, 1969",
     description:
       "Creator of Linux and Git, a highly influential software engineer in open-source development.",
     story: `
@@ -268,7 +268,7 @@ const personalities = [
   {
     id: 8,
     name: "Bjarne Stroustrup",
-    born: "December 30, 1950, Aarhus, Denmark",
+    born: "December 30, 1950",
     description: "Creator of the C++ programming language, a renowned computer scientist, and author.",
     story: `
       **Bjarne Stroustrup**, born on **December 30, 1950**, in **Aarhus, Denmark**, is a renowned computer scientist and the creator of the **C++ programming language**. C++ has become one of the most widely used programming languages in the world, powering everything from video games to enterprise applications, and is highly praised for its efficiency, versatility, and performance.
@@ -303,7 +303,7 @@ const personalities = [
   {
     id: 9,
     name: "Larry Page",
-    born: "March 26, 1973, East Lansing, Michigan, USA",
+    born: "March 26, 1973",
     description: "Co-founder of Google, a pioneer in search engine technology, and a leading figure in tech innovation.",
     story: `
       **Larry Page**, born on **March 26, 1973**, in **East Lansing, Michigan, USA**, is a pioneering computer scientist best known for co-founding **Google** along with **Sergey Brin**. Google has revolutionized the way people access information, search the internet, and organize data. Page played a major role in transforming Google into a global technology giant and later took part in the development of various other significant Google projects, including the **Android OS**, **Google Search**, and **Google X**.
@@ -337,7 +337,7 @@ const personalities = [
   {
     id: 10,
     name: "Sergey Brin",
-    born: "August 21, 1973, Moscow, Russia",
+    born: "August 21, 1973",
     description: "Co-founder of Google, key player in developing the company's search engine and numerous other Google innovations.",
     story: `
       **Sergey Brin**, born on **August 21, 1973**, in **Moscow, Russia**, is a prominent computer scientist and one of the co-founders of **Google** alongside Larry Page. Brin played a crucial role in the development of Google’s search algorithms and the structure of Google's overarching technology, helping to create one of the world's largest and most successful tech companies.
@@ -370,7 +370,206 @@ const personalities = [
       linkedin: "https://www.linkedin.com/in/sergeybrin",
       website: "https://about.google/intl/en_us/",
     },
-  },      
+  },
+  {
+    id: 11,
+    name: "Tim Berners-Lee",
+    born: "June 8, 1955",
+    description: "Inventor of the World Wide Web and a pioneer in modern internet technology.",
+    story: `
+      **Tim Berners-Lee**, born on **June 8, 1955**, in **London, United Kingdom**, is widely recognized as the inventor of the **World Wide Web (WWW)**. His groundbreaking work has made information accessible to billions of people across the globe, shaping the way humanity communicates and shares knowledge.
+  
+      **Early Life and Education**:
+      Tim Berners-Lee grew up in a household passionate about computing. Both of his parents were mathematicians who worked on one of the first commercial computers, the **Ferranti Mark 1**. He studied at **Queen's College, Oxford**, where he earned a degree in **physics** in 1976. During his time at university, he built a computer from spare parts and developed a keen interest in networking technologies.
+  
+      **Invention of the World Wide Web**:
+      While working as an engineer at **CERN**, the European Organization for Nuclear Research, Berners-Lee proposed an idea for sharing information more efficiently using **hypertext**. In 1989, he wrote the first proposal for what would become the **World Wide Web**, integrating three essential technologies:
+      - **HTML**: The language for structuring web pages.
+      - **HTTP**: The protocol for communication between servers and clients.
+      - **URLs**: The system for locating resources on the web.
+  
+      In 1991, the first website went live, marking the birth of the web. His invention revolutionized the way people access and disseminate information, making the internet a universal platform.
+  
+      **Achievements and Legacy**:
+      After inventing the web, Berners-Lee founded the **World Wide Web Consortium (W3C)** to ensure that the web remains free and open for everyone. He has tirelessly advocated for net neutrality, privacy, and an open internet. He also proposed the concept of the **Semantic Web**, an advanced extension of the WWW that would make data on the web machine-readable and context-aware.
+  
+      In addition to his work with the W3C, Berners-Lee has served as a professor and has continued to write and speak about the future of technology and the internet. He created the **World Wide Web Foundation** to promote digital equality and fight against the digital divide.
+  
+      **Awards and Recognition**:
+      Berners-Lee has received numerous accolades for his groundbreaking contributions, including:
+      - Being knighted by **Queen Elizabeth II** in 2004.
+      - The **Turing Award** in 2016.
+      - Inclusion in **Time Magazine’s 100 Most Important People of the 20th Century**.
+  
+      **Social Impact**:
+      Tim Berners-Lee’s invention is the foundation of the modern internet. The web has revolutionized industries, education, entertainment, and global communication, fundamentally reshaping the way humans live and work.
+  
+      **Personal Life and Philosophy**:
+      Despite his monumental achievements, Berners-Lee has consistently advocated for an internet that is free, fair, and accessible to all. He warns against the misuse of the web for misinformation, surveillance, and inequality, believing that its power should be harnessed for the greater good.
+  
+      As the inventor of the World Wide Web, Tim Berners-Lee’s vision and contributions continue to drive technological innovation and social progress. His legacy as a technological pioneer remains unmatched.
+    `,
+    img: "https://via.placeholder.com/150",
+    socialLinks: {
+      twitter: "https://twitter.com/timberners_lee",
+      linkedin: "https://www.linkedin.com/in/tim-berners-lee",
+      website: "https://www.w3.org/People/Berners-Lee/",
+    },
+  },  
+  {
+    id: 12,
+    name: "Jordan Walke",
+    born: "May 26, 1985",
+    description: "Creator of React.js, a transformative front-end JavaScript library.",
+    story: `
+      **Jordan Walke**, born on **May 26, 1985**, in **Palmyra, Virginia, USA**, is the creator of **React.js**, a JavaScript library that has revolutionized the way developers build user interfaces. His work has had a profound impact on web development and modern software engineering.
+  
+      **Early Life and Education**:
+      Growing up in Virginia, Walke showed an early interest in computers and programming. He pursued his studies at **the University of North Carolina at Chapel Hill**, where he graduated with a degree in **computer science**. His academic background laid the foundation for his later innovations in front-end development.
+  
+      **Career and Invention of React.js**:
+      After graduating, Jordan Walke joined **Facebook** as a software engineer. While working on Facebook Ads, he began experimenting with ways to improve front-end rendering performance. His groundbreaking idea was to create a library that would enable developers to build UI components with predictable and efficient rendering. In **2011**, he introduced **React.js** to Facebook’s engineering team.
+  
+      React.js was first implemented internally at Facebook for the news feed and Instagram’s web application. Its success led to its open-sourcing in **2013**, making it accessible to developers worldwide. The key concepts of **virtual DOM**, **component-based architecture**, and **unidirectional data flow** quickly gained traction, influencing the development of countless applications.
+  
+      **Achievements and Impact**:
+      React.js has become one of the most widely used JavaScript libraries, powering applications for major companies like Netflix, Airbnb, and WhatsApp. It has set the standard for declarative programming in UI development and influenced other frameworks such as Angular and Vue.js. 
+  
+      In addition to React.js, Walke has contributed to various other technologies and tools. He also helped inspire React Native, an extension of React.js that allows developers to build native mobile applications.
+  
+      **Awards and Recognition**:
+      While Walke is not as publicly visible as some tech pioneers, his contributions are celebrated within the software engineering community. His creation, React.js, is consistently praised as a paradigm-shifting technology, and he has been invited to speak at several developer conferences worldwide.
+  
+      **Personal Philosophy and Influence**:
+      Jordan Walke is known for his pragmatic approach to problem-solving and his dedication to improving developer experience. React.js’s simplicity and scalability have empowered developers to build sophisticated user interfaces with ease, fostering innovation in both small startups and large enterprises.
+  
+      **Legacy**:
+      Jordan Walke’s work continues to define front-end development. His contributions have not only influenced how developers build web applications but have also shaped the culture of open-source development. React.js remains a cornerstone of modern web and mobile app development, making Jordan Walke one of the unsung heroes of the software engineering world.
+    `,
+    img: "https://via.placeholder.com/150",
+    socialLinks: {
+      twitter: "https://twitter.com/jordwalke",
+      linkedin: "https://www.linkedin.com/in/jordanwalke",
+      website: "https://reactjs.org/",
+    },
+  },
+  {
+    id: 13,
+    name: "Guido van Rossum",
+    born: "January 31, 1956",
+    description: "Creator of Python, one of the most popular programming languages in the world.",
+    story: `
+      **Guido van Rossum**, born on **January 31, 1956**, in **The Hague, Netherlands**, is the creator of the **Python programming language**. His work has had an enduring impact on software development and computer science, with Python being one of the most widely used programming languages today.
+  
+      **Early Life and Education**:
+      Guido showed an aptitude for mathematics and science from a young age. He studied at the **University of Amsterdam**, where he earned a master’s degree in **mathematics and computer science** in **1982**. His education gave him a strong foundation in logic and programming, inspiring his interest in creating new tools for developers.
+  
+      **The Creation of Python**:
+      In **1989**, while working at the **Centrum Wiskunde & Informatica (CWI)** in the Netherlands, Guido began a project to design a new programming language. His goal was to create a language that was simple, easy to learn, and readable, allowing programmers to focus on solving problems rather than syntax.
+  
+      By **1991**, Guido released the first version of **Python**, named after the British comedy group **Monty Python**, whose humor he admired. Python emphasized readability, simplicity, and versatility, making it accessible to both beginners and seasoned developers.
+  
+      **Professional Achievements**:
+      Guido van Rossum worked at various notable institutions, including **CWI**, **CNRI**, and **Google**, where he continued to develop Python and promote its adoption. While at Google, he used Python in several internal projects, demonstrating its power and flexibility.
+  
+      In **2018**, Guido joined **Microsoft**, further advocating Python’s integration and supporting its community of developers. His leadership in the open-source community has been instrumental in Python’s rise to become a dominant programming language for web development, data science, machine learning, and more.
+  
+      **Awards and Recognition**:
+      - Guido received the **Free Software Foundation Award** in **2001** for his contributions to the open-source movement.
+      - He is often referred to as Python’s "**Benevolent Dictator For Life**" (BDFL), a title he humorously embraced until stepping down from the role in **2018**.
+      - Python remains among the top three programming languages worldwide, with millions of users and applications.
+  
+      **Legacy and Personal Life**:
+      Guido’s dedication to simplicity and collaboration has fostered a thriving community of Python developers. His work has empowered millions of people to learn programming and create innovative solutions in industries ranging from finance to healthcare. Beyond programming, Guido enjoys cycling and contributing to open-source projects in his free time.
+  
+      **Impact on the Software Industry**:
+      Python’s versatility and ease of use have made it a core technology for teaching programming, artificial intelligence, data analysis, and web development. Guido’s contributions to software engineering have inspired countless developers and reshaped how programming languages are designed.
+    `,
+    img: "https://via.placeholder.com/150",
+    socialLinks: {
+      twitter: "https://twitter.com/gvanrossum",
+      linkedin: "https://www.linkedin.com/in/guido-van-rossum",
+      website: "https://www.python.org/",
+    },
+  },
+  {
+    id: 14,
+    name: "Dennis Ritchie",
+    born: "September 9, 1941",
+    description: "Creator of the C programming language and co-developer of the UNIX operating system.",
+    story: `
+      **Dennis MacAlistair Ritchie** was born on **September 9, 1941**, in **Bronxville, New York, USA**. He is widely regarded as one of the most influential figures in computer science, being the creator of the **C programming language** and a key contributor to the development of the **UNIX operating system**.
+  
+      **Early Life and Education**:
+      Dennis grew up in an academically inclined family; his father was a scientist at Bell Labs. Ritchie earned his bachelor's degree in **physics** and a Ph.D. in **applied mathematics** from **Harvard University** in the early 1960s.
+  
+      **Contributions to Programming**:
+      - **C Programming Language**: During the late 1960s and early 1970s, Ritchie created the **C programming language** while working at **Bell Labs**. C became the foundation for modern programming, inspiring languages like C++, Java, and Python.
+      - **UNIX Operating System**: Alongside **Ken Thompson**, Dennis co-developed UNIX, a pioneering operating system known for its portability, multitasking capabilities, and efficiency. UNIX’s design philosophy has influenced many modern OSs, including Linux and macOS.
+  
+      **Professional Achievements**:
+      - Ritchie's work on C and UNIX enabled the widespread adoption of scalable software solutions, from mainframes to personal computers. 
+      - His book **"The C Programming Language"** (co-authored with Brian Kernighan) is still considered a seminal text in computer science education.
+      
+      **Awards and Recognition**:
+      - **Turing Award (1983)**: Recognized for his work in developing generic operating systems and programming languages.
+      - **National Medal of Technology (1998)**: Honored by President Bill Clinton for his revolutionary contributions to computer science.
+      - Ritchie received several posthumous honors, emphasizing his pivotal role in shaping the software industry.
+  
+      **Legacy**:
+      Dennis Ritchie’s work laid the groundwork for modern computing, from embedded systems to high-level applications. Despite his monumental achievements, he was known for his humility, letting his work speak for itself. He passed away on **October 12, 2011**, leaving behind a legacy that will resonate for generations.
+  
+      **Impact on the Industry**:
+      From operating systems to web browsers, Ritchie's innovations form the backbone of modern technology. His design principles in UNIX and the structure of C continue to guide the software development practices of today.
+    `,
+    img: "https://via.placeholder.com/150",
+    socialLinks: {
+      twitter: null,
+      linkedin: null,
+      website: "https://www.bell-labs.com/",
+    },
+  },
+  {
+    id: 15,
+    name: "Grace Hopper",
+    born: "December 9, 1906",
+    description: "Pioneer in computer programming, developer of the first compiler, and a U.S. Navy Rear Admiral.",
+    story: `
+      **Grace Murray Hopper** was born on **December 9, 1906**, in **New York City, New York, USA**. Known as the "Mother of Computer Programming," she was one of the first programmers of the Harvard Mark I computer and a pioneer in developing computer programming languages.
+  
+      **Early Life and Education**:
+      Grace demonstrated curiosity and technical skills from a young age. She earned a bachelor's degree in **mathematics and physics** from **Vassar College** in 1928 and later completed her master's and Ph.D. in mathematics at **Yale University**, making her one of the few women in her field at the time.
+  
+      **Career Highlights**:
+      - In **1943**, Hopper joined the **U.S. Navy Reserve** during World War II, where she was assigned to the Bureau of Ordnance Computation Project at Harvard. There, she worked on the **Harvard Mark I**, one of the earliest electromechanical computers.
+      - Grace developed the first **compiler**, a program that translates programming language instructions into machine-readable code, making programming more accessible and flexible. This work eventually led to the creation of the widely used **COBOL** programming language.
+  
+      **Innovations and Achievements**:
+      - **Debugging and the First Bug**: Hopper popularized the term "debugging" after her team discovered a literal bug (a moth) causing issues in the Mark II computer.
+      - She was a driving force in making computer languages more user-friendly, arguing for their use in fields beyond military and scientific applications.
+      - Served as a trailblazing woman in both technology and the military, ultimately achieving the rank of **Rear Admiral** in the U.S. Navy.
+  
+      **Awards and Recognition**:
+      - **National Medal of Technology and Innovation (1991)**: Grace was honored by President George H.W. Bush for her pioneering work.
+      - Posthumously, she received the Presidential Medal of Freedom in **2016**.
+      - The **Grace Hopper Celebration of Women in Computing**, one of the largest gatherings for women in technology, is named in her honor.
+  
+      **Legacy**:
+      Grace Hopper passed away on **January 1, 1992**, but her influence remains profound. Her efforts to simplify programming and her advocacy for innovation opened doors for future generations of programmers, especially women. She is remembered as a visionary who transformed the relationship between humans and computers.
+  
+      **Impact on Technology**:
+      Grace Hopper's contributions helped bridge the gap between mathematical theory and practical computing, ensuring computers became indispensable tools in various industries.
+  
+      **Famous Quote**:
+      "The most dangerous phrase in the language is, 'We've always done it this way.'"
+    `,
+    img: "https://via.placeholder.com/150",
+    socialLinks: {
+      twitter: null,
+      linkedin: null,
+      website: "https://www.gracehopper.com/",
+    },
+  },  
 ];
 
 export default personalities;

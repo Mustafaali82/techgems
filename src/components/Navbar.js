@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+
 const Navbar = ({ toggleDarkMode, darkMode }) => {
   return (
     <nav className="navbar">
