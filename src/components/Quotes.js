@@ -6,7 +6,7 @@ function Quotes() {
     "Your time is limited, so don't waste it living someone else's life. - Steve Jobs",
     "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer",
     "If you can dream it, you can do it. - Walt Disney",
-    "The most dangerous phrase in the language is, 'We've always done it this way. - Grace Hopper"
+    "The most dangerous phrase in the language is, 'We've always done it this way. - Grace Hopper",
   ];
 
   const [quotes] = useState(defaultQuotes);
