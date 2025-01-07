@@ -6,6 +6,7 @@ function Quotes() {
     "Your time is limited, so don't waste it living someone else's life. - Steve Jobs",
     "Success is not the key to happiness. Happiness is the key to success. - Albert Schweitzer",
     "If you can dream it, you can do it. - Walt Disney",
+    "The most dangerous phrase in the language is, 'We've always done it this way. -Grace Hopper "
   ];
 
   const [quotes] = useState(defaultQuotes);
@@ -23,11 +24,11 @@ function Quotes() {
       <div style={styles.card}>
         <p style={styles.quote}>{`“${currentQuote.split(" - ")[0]}”`}</p>
         <p style={styles.author}>
-          {currentQuote.split(" - ")[1] && `- ${currentQuote.split(" - ")[1]}`}
+          {currentQuote.split(" - ")[1] && `--- ${currentQuote.split(" - ")[1]}`}
         </p>
       </div>
       <button style={styles.button} onClick={handleNewQuote}>
-        Show Another Quote
+        Show Quote
       </button>
     </div>
   );
@@ -44,22 +45,25 @@ const styles = {
     maxWidth: "500px",
     margin: "20px auto",
     padding: "20px",
-    backgroundColor: "#fff",
+    backgroundColor: "rgb(24 24 24)",
     boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
     borderRadius: "10px",
     transition: "transform 0.3s, box-shadow 0.3s",
+    border: "2px solid white",
+    color: "white",
   },
   quote: {
     fontSize: "1.5rem",
     fontStyle: "italic",
-    color: "#333",
+    color: "#fff",
     marginBottom: "15px",
   },
   author: {
     fontSize: "1rem",
-    fontWeight: "bold",
-    color: "#555",
+    fontWeight: "100",
+    color: "#fff",
     textAlign: "right",
+    fontStyle: "italic",
   },
   button: {
     margin: "10px 20px",
@@ -67,11 +71,11 @@ const styles = {
     fontSize: "1rem",
     fontWeight: "bold",
     color: "#fff",
-    backgroundColor: "#007BFF",
-    border: "none",
+    backgroundColor: "#000",
     borderRadius: "5px",
     cursor: "pointer",
     transition: "background-color 0.3s",
+    border: "2px solid white",
   },
 };
 
