@@ -55,8 +55,9 @@ body {
     background: none;
     border: none;
     color: inherit;
-    font-size: 16px;
+    font-size: 1.2rem;
     cursor: pointer;
+    font-family: "Bellefair", serif;
 }
 
 /* Navbar Styles */
@@ -78,7 +79,8 @@ body {
 }
 
 .navbar-list li {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-family: "Bellefair", serif;
 }
 
 .navbar-list li a {
@@ -128,12 +130,12 @@ body {
     width: 380px;
     overflow: hidden;
     transition: transform 0.3s ease;
-    border-right: 4px solid black;
+    border-right: 4px solid  ;
     border-left: 4px solid black;
     padding: 20px;
 }
 
-.dark-mode .card{
+.dark-mode .card {
     border-right: 4px solid white;
     border-left: 4px solid white;
 }
@@ -187,19 +189,16 @@ body {
     background: none;
 }
 
-.story {
-    padding: 30px;
-}
-
 .story-container {
     margin: auto;
-    max-width: 1000px;
+    max-width: 100%;
     padding: 1.9rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background: white;
     border-radius: 15px;
     height: 100%;
-    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .story-header {
@@ -209,27 +208,61 @@ body {
     gap: 1.5rem;
     justify-content: center;
     text-align: center;
+    border-left: 5px solid #353535;
+    border-right: 5px solid #353535;
+    width: 70%;
+    padding: 60px 25px;
 }
+
+.story-img-box {
+    background-color: #353535;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
 
 .story-img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
     border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.light-mode .story-img {
+    border: 2px solid black;
 }
 
 .story-info h1 {
     margin-bottom: 0.5rem;
+    font-family: "Yesteryear", serif;
+    font-size: 130px;
 }
 
 .story-info p {
     margin: 0.9rem 0;
+    font-family: "Bellefair", serif;
+    font-size: 27px;
+    line-height: 38px;
+}
+
+.story-content {
+ background-color: #333333;
+ padding: 30px;
+ margin: 60px;
+ margin-bottom: 0;
+ border-radius: 10px;
+}
+
+.light-mode .story-content {
+    background-color: #E2E2E2;
 }
 
 .story-content h2 {
-    margin-top: 1.5rem;
-    font-size: 2rem;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: "Yesteryear", serif;
 }
 
 .light-mode .story-content p {
@@ -239,7 +272,8 @@ body {
 .story-content p {
     line-height: 1.8;
     margin-top: 0.5rem;
-    font-size: 19px;
+    font-size: 22px;
+    font-family: "Bellefair", serif;
 }
 
 .light-mode .story-links h3 {
@@ -250,16 +284,22 @@ body {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     color: white;
-    font-size: 2rem;
+    font-size: 3.5rem;
+    font-family: "Yesteryear", serif;
 }
 
 .story-links ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .story-links li {
-    margin: 0.8rem 0;
+    margin: 0.8rem 10px;
+    font-family: "Bellefair", serif;
+    font-size: 27px;
 }
 
 .light-mode .story-links a {
