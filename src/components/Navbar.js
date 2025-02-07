@@ -7,7 +7,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
     <nav className="navbar">
       <ul className="navbar-list">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">Persons</Link>
         </li>
         <li>
           <Link to="/quotes">Motivational Quotes</Link>
