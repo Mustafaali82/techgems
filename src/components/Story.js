@@ -14,7 +14,7 @@ const Story = ({ personalities }) => {
       <div className="story-container">
         <div className="story-header">
           <div className="story-info">
-          <img
+            <img
               src={person.img}
               alt={`${person.name}`}
               className="story-img"
@@ -67,8 +67,8 @@ const Story = ({ personalities }) => {
           </div>
         </div>
         <div className="story-content">
-            <h2>The Story</h2>
-            <p>{person.story}</p>
+          <h2>The Story</h2>
+          <p>{person.story}</p>
         </div>
       </div>
     </div>
