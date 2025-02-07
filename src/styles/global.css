@@ -91,20 +91,30 @@ body {
     color: #00aaff;
 }
 
-
 /* Home Page */
 
 .home-container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     padding: 40px;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dark-mode .home-title {
+    border-bottom: 8px solid white;
 }
 
 .home-title {
     font-size: 2.5rem;
     margin-bottom: 30px;
     text-align: center;
+    border-bottom: 8px solid black;
+    border-radius: 50px;
+    width: fit-content;
 }
 
 .personality-cards {
@@ -115,11 +125,17 @@ body {
 }
 
 .card {
-    width: 350px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(136, 136, 136, 0.275);
+    width: 380px;
     overflow: hidden;
     transition: transform 0.3s ease;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    padding: 20px;
+}
+
+.dark-mode .card{
+    border-right: 4px solid white;
+    border-left: 4px solid white;
 }
 
 .card:hover {
@@ -134,7 +150,7 @@ body {
 }
 
 .card-content {
-    padding: 15px;
+    padding: 15px 0;
 }
 
 .card-content h2 {
@@ -218,16 +234,15 @@ body {
 
 .light-mode .story-content p {
     color: black;
-} 
+}
 
 .story-content p {
     line-height: 1.8;
     margin-top: 0.5rem;
     font-size: 19px;
-    color: #8c8c8c;
 }
 
-.light-mode .story-links h3{
+.light-mode .story-links h3 {
     color: black;
 }
 
