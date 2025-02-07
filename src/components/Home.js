@@ -9,11 +9,6 @@ function Home() {
       <div className="personality-cards">
         {personalities.map((person) => (
           <div className="card" key={person.id}>
-            <img
-              src={person.img}
-              alt={person.name}
-              className="person-image"
-            />
             <div className="card-content">
               <h2>{person.name}</h2>
               <p>{person.description}</p>
