@@ -74,7 +74,6 @@ const personalities = [
       While Musk's innovations have garnered praise, his actions on social media, particularly Twitter, have sometimes led to controversies and legal challenges. Despite this, he remains one of the world’s most important and polarizing figures in the fields of technology, engineering, and business.
     `,
     img: "/images/Elon.png",
-    story_img:"images/Elon.png",
     socialLinks: {
       twitter: "https://twitter.com/elonmusk",
       linkedin: "https://www.linkedin.com/in/elonmusk",
