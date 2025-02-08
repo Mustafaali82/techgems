@@ -8,7 +8,7 @@ function Home() {
       <h1 className="home-title">Tech Gems</h1>
       <div className="personality-cards">
         {personalities.map((person) => (
-          <div className="card" key={person.id}>
+          <div className="card" key={person.name}>
             <div className="card-content">
               <h2>{person.name}</h2>
               <p>{person.description}</p>

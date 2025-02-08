@@ -47,7 +47,7 @@ const Story = ({ personalities }) => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      LinkedIn
+                      Linkedin
                     </a>
                   </li>
                 )}
