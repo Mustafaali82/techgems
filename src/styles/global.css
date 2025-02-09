@@ -314,7 +314,7 @@ body {
 }
 
 .story-content h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     text-align: center;
     font-family: "Yesteryear", serif;
 }
@@ -331,7 +331,7 @@ body {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     color: white;
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: "Yesteryear", serif;
 }
 
@@ -370,8 +370,12 @@ body {
 .quotes_container {
     text-align: center;
     padding: 20px;
-    min-height: 100vh;
+    min-height: 92vh;
     font-family: 'Bellefair', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .quotes_card {
@@ -514,6 +518,16 @@ h3 {
     .story-img {
         width: 150px;
         height: 150px;
+        border-radius: 100px;
+    }
+
+    .story-content {
+        margin: 50px 0 0;
+        padding: 20px;
+    }
+
+    .quotes_title{
+        font-size: 2.5rem;
     }
 }
 
