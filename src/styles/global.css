@@ -525,4 +525,25 @@ h3 {
     .card{
         width: 100%;
     }
+
+    .story-header{
+        width: 85%;
+    }
+    
+    .story-info h1{
+        font-size: 100px;
+        margin-top: 1rem;
+    }
+
+    .story-info p{
+        font-size: 23px;
+    }
+
+    .story-links li{
+        font-size: 23px;
+    }
+
+    .story-content{
+        margin: 50px 0 0;
+    }
 }
