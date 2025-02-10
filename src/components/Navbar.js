@@ -12,9 +12,6 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
           <li>
             <Link to="/quotes">Quotes</Link>
           </li>
-          {/* <li>
-          <Link to="/pricing">Pricing</Link>
-        </li> */}
         </div>
         <div className="theme-icon">
           <button className="theme-toggle" onClick={toggleDarkMode}>

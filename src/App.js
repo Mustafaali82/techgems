@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar";
 import Newsletter from "./components/Home";
 import Story from "./components/Story";
 import Quotes from "./components/Quotes";
-// import Pricing from './components/Pricing'; 
 import personalities from "./data/personalities";
 
 function App() {
@@ -35,7 +34,6 @@ function App() {
           element={<Story personalities={personalities} />}
         />
         <Route path="/quotes" element={<Quotes />} />
-        {/* <Route path="/pricing" element={<Pricing />} /> */}
       </Routes>
     </Router>
     </div>
