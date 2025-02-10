@@ -420,29 +420,120 @@ body {
 }
 
 /* Routine Page */
-
-.routine-container {
-    text-align: center;
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+  }
+  
+  .routine-modal {
+    background: white;
     padding: 20px;
-}
-
-select {
-    margin: 10px;
-    padding: 8px;
-    font-size: 16px;
-}
-
-.routine-card {
-    background: #f9f9f9;
-    padding: 20px;
-    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    text-align: left;
-}
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+    outline: none;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  .day-selector {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .day-btn {
+    padding: 8px 15px;
+    border: none;
+    background: #ddd;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .day-btn:hover {
+    background: #bbb;
+  }
+  
+  .active-day {
+    background: #ff6b6b;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .routine-container {
+    text-align: center;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .routine-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  .close-btn {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .close-btn:hover {
+    background: darkred;
+  }
+  .routine-section p {
+    font-size: 1rem;
+    color: #333;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .routine-section p strong {
+    color: #ff6b6b;
+    min-width: 80px;
+  }
+  
+  .routine-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: .5s;
+  }
 
-
+  .routine-image:hover{
+    transform: scale(1.1);
+  }
+  
 /* Pricing */
 
 /* Styling the pricing container */

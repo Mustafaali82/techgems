@@ -26,7 +26,7 @@ function Routine() {
   return (
     <div className="routine-container">
       <h1 className="routine-title">
-        📅 Weekly Routines of Famous Personalities
+        📅 Weekly Routine
       </h1>
 
       <div className="routine-grid">
