@@ -485,7 +485,7 @@ const personalities = [
       **Impact on the Software Industry**:
       Python’s versatility and ease of use have made it a core technology for teaching programming, artificial intelligence, data analysis, and web development. Guido’s contributions to software engineering have inspired countless developers and reshaped how programming languages are designed.
     `,
-    img: "/images/Rossum.jpeg",
+    img: "/images/Rossum.jpg",
     socialLinks: {
       twitter: "https://twitter.com/gvanrossum",
       linkedin: "https://www.linkedin.com/in/guido-van-rossum",
