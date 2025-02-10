@@ -1,38 +1,126 @@
 import React, { useState } from "react";
+import Modal from "react-modal";
 import routines from "../data/routines";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init();
+
+Modal.setAppElement("#root"); // Required for accessibility
 
 function Routine() {
-  const [selectedPersonality, setSelectedPersonality] = useState("Paul Graham");
+  const [selectedPersonality, setSelectedPersonality] = useState(null);
+  const [selectedDay, setSelectedDay] = useState("Monday");
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  const openModal = (name) => {
+    setSelectedPersonality(name);
+    setModalIsOpen(true);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+    setSelectedPersonality(null);
+  };
 
   return (
     <div className="routine-container">
-      <h1>Daily Routine of {selectedPersonality}</h1>
+      <h1 className="routine-title">
+        📅 Weekly Routines of Famous Personalities
+      </h1>
 
-      <select onChange={(e) => setSelectedPersonality(e.target.value)}>
-        {Object.keys(routines).map((name) => (
-          <option key={name} value={name}>
-            {name}
-          </option>
+      <div className="routine-grid">
+        {Object.entries(routines).map(([name, data]) => (
+          <div
+            key={name}
+            className="routine-card"
+            data-aos="fade-up"
+            onClick={() => openModal(name)}
+          >
+            <img src={data.image} alt={name} className="routine-image" />
+            <p className="routine-name">{name}</p>
+          </div>
         ))}
-      </select>
-
-      <div className="routine-card">
-        <p>
-          <strong>Wake Up:</strong> {routines[selectedPersonality].wakeUp}
-        </p>
-        <p>
-          <strong>Morning:</strong> {routines[selectedPersonality].morning}
-        </p>
-        <p>
-          <strong>Afternoon:</strong> {routines[selectedPersonality].afternoon}
-        </p>
-        <p>
-          <strong>Evening:</strong> {routines[selectedPersonality].evening}
-        </p>
-        <p>
-          <strong>Sleep:</strong> {routines[selectedPersonality].sleep}
-        </p>
       </div>
+
+      {/* Popup Modal */}
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        contentLabel="Routine Modal"
+        className="routine-modal"
+        overlayClassName="modal-overlay"
+      >
+        {selectedPersonality && (
+          <div className="routine-details" data-aos="zoom-in">
+            <h2>
+              🌟 {selectedPersonality}'s Routine ({selectedDay})
+            </h2>
+
+            <div className="day-selector">
+              {Object.keys(routines[selectedPersonality].week).map((day) => (
+                <button
+                  key={day}
+                  className={`day-btn ${
+                    day === selectedDay ? "active-day" : ""
+                  }`}
+                  onClick={() => setSelectedDay(day)}
+                >
+                  {day}
+                </button>
+              ))}
+            </div>
+
+            <div className="routine-section">
+              <h3>🌅 Morning</h3>
+              {Object.entries(
+                routines[selectedPersonality].week[selectedDay].morning
+              ).map(([time, activity]) => (
+                <p key={time}>
+                  <strong>🕒 {time}:</strong> {activity}
+                </p>
+              ))}
+            </div>
+
+            <div className="routine-section">
+              <h3>🌞 Afternoon</h3>
+              {Object.entries(
+                routines[selectedPersonality].week[selectedDay].afternoon
+              ).map(([time, activity]) => (
+                <p key={time}>
+                  <strong>🕒 {time}:</strong> {activity}
+                </p>
+              ))}
+            </div>
+
+            <div className="routine-section">
+              <h3>🌆 Evening</h3>
+              {Object.entries(
+                routines[selectedPersonality].week[selectedDay].evening
+              ).map(([time, activity]) => (
+                <p key={time}>
+                  <strong>🕒 {time}:</strong> {activity}
+                </p>
+              ))}
+            </div>
+
+            <div className="routine-section">
+              <h3>🌙 Night</h3>
+              {Object.entries(
+                routines[selectedPersonality].week[selectedDay].night
+              ).map(([time, activity]) => (
+                <p key={time}>
+                  <strong>🕒 {time}:</strong> {activity}
+                </p>
+              ))}
+            </div>
+
+            <button onClick={closeModal} className="close-btn">
+              ❌ Close
+            </button>
+          </div>
+        )}
+      </Modal>
     </div>
   );
 }
