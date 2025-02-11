@@ -420,6 +420,7 @@ body {
 }
 
 /* Routine Page */
+
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -481,18 +482,24 @@ body {
     color: white;
     font-weight: bold;
   }
+
+  .routine-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
   
   .routine-container {
     text-align: center;
-    padding: 50px;
-    font-family: "Poppins", sans-serif;
+    padding: 20px 0;
+    font-family: 'Bellefair', serif;
   }
   
   .routine-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 25px;
+    font-size: 4rem;
+    font-family: "Yesteryear", serif;
   }
   
   .close-btn {
@@ -530,12 +537,21 @@ body {
     transition: .5s;
   }
 
-  .routine-image:hover{
-    transform: scale(1.1);
-  }
 
   .routine-card{
-    width: 200px;
+    width: 400px;
+    border-right: 4px solid;
+    border-left: 4px solid;
+    padding: 30px 0;
+    cursor: pointer;
+  }
+
+  .routine-card:hover{
+    transform: scale(1.1) !important;
+  }
+
+  .routine-person-name{
+    font-size: 28px;
   }
   
 /* Pricing */

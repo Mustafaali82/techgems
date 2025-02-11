@@ -25,9 +25,7 @@ function Routine() {
 
   return (
     <div className="routine-container">
-      <h1 className="routine-title">
-        📅 Weekly Routine
-      </h1>
+      <h1 className="routine-title">Weekly Routine</h1>
 
       <div className="routine-grid">
         {Object.entries(routines).map(([name, data]) => (
@@ -38,7 +36,7 @@ function Routine() {
             onClick={() => openModal(name)}
           >
             <img src={data.image} alt={name} className="routine-image" />
-            <p className="routine-name">{name}</p>
+            <p className="routine-person-name">{name}</p>
           </div>
         ))}
       </div>
