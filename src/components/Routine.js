@@ -51,10 +51,14 @@ function Routine() {
       >
         {selectedPersonality && (
           <div className="routine-details" data-aos="zoom-in">
-            <h2>
-              🌟 {selectedPersonality}'s Routine ({selectedDay})
-            </h2>
-
+            <div className="routine_top">
+              <h2>
+                {selectedPersonality}'s Routine ({selectedDay})
+              </h2>
+              <button onClick={closeModal} className="close-btn">
+                ❌
+              </button>
+            </div>
             <div className="day-selector">
               {Object.keys(routines[selectedPersonality].week).map((day) => (
                 <button
@@ -70,52 +74,43 @@ function Routine() {
             </div>
 
             <div className="routine-section">
-              <h3>🌅 Morning</h3>
+              <h3>Morning</h3>
               {Object.entries(
                 routines[selectedPersonality].week[selectedDay].morning
               ).map(([time, activity]) => (
                 <p key={time}>
-                  <strong>🕒 {time}:</strong> {activity}
+                  <strong>{time}:</strong> {activity}
                 </p>
               ))}
             </div>
 
             <div className="routine-section">
-              <h3>🌞 Afternoon</h3>
+              <h3>Afternoon</h3>
               {Object.entries(
                 routines[selectedPersonality].week[selectedDay].afternoon
               ).map(([time, activity]) => (
                 <p key={time}>
-                  <strong>🕒 {time}:</strong> {activity}
+                  <strong> {time}:</strong> {activity}
                 </p>
               ))}
             </div>
-
             <div className="routine-section">
-              <h3>🌆 Evening</h3>
+              <h3> Night</h3>
               {Object.entries(
                 routines[selectedPersonality].week[selectedDay].evening
               ).map(([time, activity]) => (
                 <p key={time}>
-                  <strong>🕒 {time}:</strong> {activity}
+                  <strong>{time}:</strong> {activity}
                 </p>
-              ))}
-            </div>
-
-            <div className="routine-section">
-              <h3>🌙 Night</h3>
+              ))} 
               {Object.entries(
                 routines[selectedPersonality].week[selectedDay].night
               ).map(([time, activity]) => (
                 <p key={time}>
-                  <strong>🕒 {time}:</strong> {activity}
+                  <strong> {time}:</strong> {activity}
                 </p>
               ))}
             </div>
-
-            <button onClick={closeModal} className="close-btn">
-              ❌ Close
-            </button>
           </div>
         )}
       </Modal>
