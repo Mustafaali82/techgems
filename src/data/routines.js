@@ -851,6 +851,413 @@ const routines = {
       },
     },
   },
+  "Linus Torvalds": {
+    image: "/images/Linus Torvalds.png",
+    week: {
+      Monday: {
+        morning: {
+          "07:00 AM": "Wake up & morning coffee ☕",
+          "07:30 AM": "Check & respond to emails 📧",
+          "09:00 AM": "Deep coding & Linux kernel maintenance 👨‍💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch with family 🍽️",
+          "02:00 PM": "More development work, reviewing patches 🛠️",
+        },
+        evening: {
+          "06:00 PM": "Scuba diving practice (if possible) 🤿",
+          "07:30 PM": "Dinner & spending time with family 🍽️",
+        },
+        night: {
+          "09:00 PM": "Reading tech blogs & news 📖",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Tuesday: {
+        morning: {
+          "07:00 AM": "Wake up & quick stretch 🚶",
+          "07:30 AM": "Code review & kernel updates 🔍",
+          "09:30 AM": "Deep work & debugging 🖥️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & walk outside 🌳",
+          "02:00 PM": "Video calls with contributors 📞",
+          "04:00 PM": "Coding & kernel discussion in forums 💻",
+        },
+        evening: {
+          "06:00 PM": "Workout & relaxation 🏋️‍♂️",
+          "07:30 PM": "Dinner 🍽️",
+        },
+        night: {
+          "09:00 PM": "Gaming or hobby programming 🎮",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Wednesday: {
+        morning: {
+          "07:00 AM": "Wake up & coffee ☕",
+          "08:00 AM": "Code review & bug fixing 🔧",
+        },
+        afternoon: {
+          "12:00 PM": "Lunch 🍲",
+          "01:30 PM": "Writing & discussing Linux proposals 📝",
+        },
+        evening: {
+          "06:00 PM": "Outdoor walk 🌳",
+          "07:00 PM": "Family dinner & relaxation 🍽️",
+        },
+        night: {
+          "09:00 PM": "Watching documentaries or reading 📺",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Thursday: {
+        morning: {
+          "07:00 AM": "Wake up & morning emails 📧",
+          "08:00 AM": "Kernel patch review & merging 🔍",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch 🥪",
+          "02:00 PM": "Kernel testing & performance tuning ⚙️",
+        },
+        evening: {
+          "06:00 PM": "Exercise & relaxation 🏃‍♂️",
+          "07:30 PM": "Dinner with family 🍛",
+        },
+        night: {
+          "09:00 PM": "Tech reading or gaming 🎮",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Friday: {
+        morning: {
+          "07:00 AM": "Wake up & plan the day 📝",
+          "08:00 AM": "Code review & community discussions 💻",
+        },
+        afternoon: {
+          "12:00 PM": "Lunch & casual reading 📖",
+          "02:00 PM": "Feature brainstorming & testing 🛠️",
+        },
+        evening: {
+          "06:00 PM": "Swimming or outdoor activity 🏊",
+          "07:30 PM": "Dinner 🍕",
+        },
+        night: {
+          "09:00 PM": "Relaxation & spending time with family ❤️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Saturday: {
+        morning: {
+          "08:00 AM": "Wake up & relax 🌅",
+          "09:00 AM": "Personal programming projects 👨‍💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch 🥗",
+          "02:00 PM": "Scuba diving or outdoor activities 🤿",
+        },
+        evening: {
+          "06:00 PM": "Family time & dinner 🍜",
+          "08:00 PM": "Watch movies or play games 🎬",
+        },
+        night: {
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Sunday: {
+        morning: {
+          "08:30 AM": "Wake up & coffee ☕",
+          "10:00 AM": "Leisurely coding or open-source work 🖥️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & tech discussions 🍽️",
+          "03:00 PM": "Outdoor activities 🌳",
+        },
+        evening: {
+          "06:30 PM": "Dinner with family & relaxation 🍷",
+        },
+        night: {
+          "09:00 PM": "Reading or hobby projects 📚",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+    },
+  },
+  "Bjarne Stroustrup": {
+    image: "/images/Bjrane.png",
+    week: {
+      Monday: {
+        morning: {
+          "06:30 AM": "Wake up & morning coffee ☕",
+          "07:00 AM": "Reading & reviewing new research papers 📖",
+          "08:00 AM": "Breakfast & light exercise 🏋️‍♂️",
+          "09:00 AM": "Deep work on C++ improvements & academic research 💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & short break 🍽️",
+          "02:00 PM": "Meetings with students & researchers 👥",
+          "04:00 PM": "Code review & writing articles ✍️",
+        },
+        evening: {
+          "06:30 PM": "Outdoor walk or cycling 🚴",
+          "07:30 PM": "Dinner with family 🍷",
+        },
+        night: {
+          "09:00 PM": "Casual reading or watching documentaries 🎥",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Tuesday: {
+        morning: {
+          "06:30 AM": "Wake up & coffee ☕",
+          "07:00 AM": "Plan the day & answer emails 📧",
+          "08:30 AM": "Deep focus on C++ development & debugging 🖥️",
+        },
+        afternoon: {
+          "12:00 PM": "Lunch & book reading 📖",
+          "01:30 PM": "Lecturing & mentoring students 🎓",
+          "03:00 PM": "Writing technical papers & documentation 📝",
+        },
+        evening: {
+          "06:00 PM": "Light exercise & relaxation 🏃",
+          "07:30 PM": "Dinner 🍲",
+        },
+        night: {
+          "09:00 PM": "Writing notes & brainstorming new ideas 💡",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Wednesday: {
+        morning: {
+          "06:30 AM": "Wake up & morning meditation 🧘",
+          "07:00 AM": "Research on C++ concepts & future features 🔍",
+          "09:00 AM": "Technical work & coding 💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & a walk 🚶",
+          "02:00 PM": "Collaboration with other researchers 📊",
+          "04:00 PM": "Reviewing industry trends & tech updates 🌎",
+        },
+        evening: {
+          "06:30 PM": "Reading fiction or philosophy books 📚",
+          "07:30 PM": "Dinner 🍽️",
+        },
+        night: {
+          "09:00 PM": "Writing personal notes & reflections ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Thursday: {
+        morning: {
+          "06:30 AM": "Wake up & plan tasks for the day 📋",
+          "08:00 AM": "Deep programming session on C++ projects 💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch 🍛",
+          "02:00 PM": "Meetings with developers & industry experts 👥",
+        },
+        evening: {
+          "06:00 PM": "Exercise & relaxation 🏋️",
+          "07:30 PM": "Dinner 🍕",
+        },
+        night: {
+          "09:00 PM": "Reflecting on the day & casual reading 📖",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Friday: {
+        morning: {
+          "06:30 AM": "Wake up & enjoy a quiet morning ☕",
+          "07:30 AM": "Writing & refining research papers ✍️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & relaxation 🍲",
+          "02:00 PM": "Brainstorming new C++ features & enhancements 🚀",
+        },
+        evening: {
+          "06:00 PM": "Outdoor cycling & relaxation 🚴",
+          "07:30 PM": "Dinner with friends & family 🍽️",
+        },
+        night: {
+          "09:00 PM": "Listening to classical music 🎵",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Saturday: {
+        morning: {
+          "08:00 AM": "Wake up & relax 🌅",
+          "09:00 AM": "Leisurely programming & hobby projects 🎨",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & long walk 🌳",
+          "02:00 PM": "Engaging with the programming community 💬",
+        },
+        evening: {
+          "06:00 PM": "Playing chess or board games ♟️",
+          "07:30 PM": "Dinner 🍜",
+        },
+        night: {
+          "09:00 PM": "Reading books or enjoying a movie 🎬",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Sunday: {
+        morning: {
+          "08:30 AM": "Wake up & breakfast with family ☕",
+          "10:00 AM": "Light programming & hobby coding 🖥️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & quiet reading time 📖",
+          "03:00 PM": "Relaxing activities & weekend reflection 🌿",
+        },
+        evening: {
+          "06:30 PM": "Dinner & family time 🍷",
+        },
+        night: {
+          "09:00 PM": "Casual discussions & note-taking 📝",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+    },
+  },
+  "Larry Page": {
+    image: "/images/Larry.png",
+    week: {
+      Monday: {
+        morning: {
+          "06:30 AM": "Wake up & morning meditation 🧘",
+          "07:00 AM": "Light exercise & stretching 🏃",
+          "08:00 AM": "Breakfast & catching up on news 🌎",
+          "09:00 AM": "Deep work on innovation & Google X projects 💡",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & quick break 🍽️",
+          "02:00 PM": "Meetings with Google executives & product teams 👥",
+          "04:00 PM": "Exploring futuristic tech & reading research papers 📖",
+        },
+        evening: {
+          "06:30 PM": "Outdoor walk or biking 🚴",
+          "07:30 PM": "Dinner with family & friends 🍷",
+        },
+        night: {
+          "09:00 PM": "Casual brainstorming & journaling ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Tuesday: {
+        morning: {
+          "06:30 AM": "Wake up & review new tech trends 🔍",
+          "07:00 AM": "Exercise & mindfulness 🏋️",
+          "08:30 AM": "Breakfast & family time ☕",
+          "09:30 AM": "Strategy meetings & project planning 🚀",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & quick relaxation 🍲",
+          "02:00 PM": "Hands-on coding & experimenting with AI models 🤖",
+        },
+        evening: {
+          "06:00 PM": "Tennis or cycling for fitness 🎾",
+          "07:30 PM": "Dinner & book reading 📚",
+        },
+        night: {
+          "09:00 PM": "Innovative thinking & note-taking 📝",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Wednesday: {
+        morning: {
+          "06:30 AM": "Wake up & morning coffee ☕",
+          "07:00 AM": "Tech discussions & idea exploration 💭",
+          "09:00 AM": "Deep work on Google innovations & patents 💡",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch 🍽️",
+          "02:00 PM": "Speaking with researchers & AI engineers 🤝",
+          "04:00 PM": "Reading books & exploring new tech concepts 📖",
+        },
+        evening: {
+          "06:30 PM": "Workout & relaxation 🏋️",
+          "07:30 PM": "Dinner with close friends 🍕",
+        },
+        night: {
+          "09:00 PM": "Writing & reflecting on ideas ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Thursday: {
+        morning: {
+          "06:30 AM": "Wake up & exercise 🏃",
+          "08:00 AM": "Breakfast & checking emails 📧",
+          "09:30 AM": "Focus on innovative projects & research 🔬",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & networking with thought leaders 🍛",
+          "02:00 PM": "Meetings with Alphabet team on futuristic projects 🚀",
+        },
+        evening: {
+          "06:00 PM": "Reading & tech deep dives 📚",
+          "07:30 PM": "Dinner & quality time with family 🍷",
+        },
+        night: {
+          "09:00 PM": "Exploring moonshot ideas 🚀",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Friday: {
+        morning: {
+          "06:30 AM": "Wake up & light yoga 🧘",
+          "07:30 AM": "Experimenting with AI & robotics 🤖",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & strategy discussions 🍲",
+          "02:00 PM": "Collaborating with engineers & tech leaders 💻",
+        },
+        evening: {
+          "06:00 PM": "Hiking or adventure sports 🏞️",
+          "07:30 PM": "Dinner 🍕",
+        },
+        night: {
+          "09:00 PM": "Reviewing upcoming innovations 📊",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Saturday: {
+        morning: {
+          "08:00 AM": "Wake up & breakfast with family ☀️",
+          "09:00 AM": "Casual coding & experimental projects 💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & weekend relaxation 🍜",
+          "02:00 PM": "Meeting with entrepreneurs & startups 🚀",
+        },
+        evening: {
+          "06:00 PM": "Outdoor activities & unwinding 🏖️",
+          "07:30 PM": "Dinner & philosophical discussions 🧠",
+        },
+        night: {
+          "09:00 PM": "Casual reading & brainstorming 📖",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Sunday: {
+        morning: {
+          "08:30 AM": "Wake up & leisure time ☕",
+          "10:00 AM": "Creative brainstorming & hobby projects 🎨",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & quiet time 🍲",
+          "03:00 PM": "Reflection on the week & strategic planning 📝",
+        },
+        evening: {
+          "06:30 PM": "Dinner & light socializing 🍷",
+        },
+        night: {
+          "09:00 PM": "Final review of the week's achievements 📊",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+    },
+  },
 };
 
 export default routines;
