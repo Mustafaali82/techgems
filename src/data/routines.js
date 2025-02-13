@@ -1538,6 +1538,555 @@ const routines = {
       },
     },
   },
+  "Jordan Walke": {
+    image: "/images/Jordan.png",
+    week: {
+      Monday: {
+        morning: {
+          "07:00 AM": "Wake up & light stretching 🏋️",
+          "07:30 AM": "Coffee & reading tech articles ☕",
+          "08:30 AM": "Reviewing React updates & contributions 💻",
+          "10:00 AM": "Deep work on open-source projects 🚀",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & casual brainstorming with colleagues 🍜",
+          "02:00 PM": "Researching functional programming & new JS trends 📖",
+          "04:00 PM": "Contributing to GitHub discussions & bug fixes 🐞",
+        },
+        evening: {
+          "06:30 PM": "Evening walk & relaxation 🚶",
+          "07:30 PM": "Dinner with family & unplugging from work 🍽️",
+        },
+        night: {
+          "09:00 PM": "Reading books on software architecture 📚",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Tuesday: {
+        morning: {
+          "07:00 AM": "Wake up & meditation 🧘",
+          "07:30 AM": "Tech podcasts & breakfast 🎧",
+          "09:00 AM": "Exploring new features in React & JavaScript 💡",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & brainstorming new UI patterns 🍲",
+          "02:00 PM": "Live coding & experimenting with new frameworks 🎨",
+        },
+        evening: {
+          "06:30 PM": "Outdoor cycling or jogging 🚴",
+          "08:00 PM": "Dinner & discussions on software philosophy 🍽️",
+        },
+        night: {
+          "09:30 PM": "Writing blog posts on frontend evolution ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Wednesday: {
+        morning: {
+          "07:00 AM": "Wake up & light workout 🏋️",
+          "08:00 AM": "Breakfast & coding deep dive ☕",
+          "09:00 AM": "Contributing to React core discussions 💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & networking with engineers 🍜",
+          "02:00 PM": "Reviewing pull requests & mentoring developers 🛠️",
+        },
+        evening: {
+          "06:30 PM": "Leisure reading & unwinding 📖",
+          "08:00 PM": "Dinner & unplugging 🍽️",
+        },
+        night: {
+          "09:30 PM": "Sketching ideas for new developer tools 🎨",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Thursday: {
+        morning: {
+          "07:00 AM": "Wake up & quick jog 🏃",
+          "08:00 AM": "Breakfast & catching up on GitHub PRs ☕",
+          "09:00 AM": "Deep work on React optimizations 🚀",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & reflecting on React's evolution 🍛",
+          "02:00 PM": "Speaking at a developer conference 🎤",
+        },
+        evening: {
+          "06:30 PM": "Tech meetups or casual coding sessions 👨‍💻",
+          "08:00 PM": "Dinner with family 🍽️",
+        },
+        night: {
+          "09:30 PM": "Writing about JavaScript trends ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Friday: {
+        morning: {
+          "07:00 AM": "Wake up & coding session ☕",
+          "09:00 AM": "Exploring new JavaScript paradigms 💡",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & reading open-source discussions 🍜",
+          "02:00 PM": "Pair programming & debugging 🔍",
+        },
+        evening: {
+          "06:30 PM": "Long walk & relaxation 🚶",
+          "08:00 PM": "Dinner & reflecting on the week 🍽️",
+        },
+        night: {
+          "09:30 PM": "Casual reading or prototyping new ideas 📚",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Saturday: {
+        morning: {
+          "08:00 AM": "Wake up & slow start ☀️",
+          "09:30 AM": "Hiking or spending time outdoors 🏞️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & working on side projects 🍲",
+          "03:00 PM": "Exploring AI & WebAssembly impact on web dev 🤖",
+        },
+        evening: {
+          "06:30 PM": "Personal time & relaxation 🛋️",
+          "08:00 PM": "Dinner with friends 🍷",
+        },
+        night: {
+          "09:30 PM": "Thinking about the future of web technologies 🌍",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Sunday: {
+        morning: {
+          "08:30 AM": "Wake up & coffee ☕",
+          "10:00 AM": "Reflecting on past innovations & React 📖",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & unplugging 🍜",
+          "03:00 PM": "Casual programming & open-source contributions 💻",
+        },
+        evening: {
+          "06:30 PM": "Dinner & deep discussions 🍽️",
+          "08:00 PM": "Relaxing with music 🎶",
+        },
+        night: {
+          "09:30 PM": "Planning for the next week 📅",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+    },
+  },
+  "Guido Van Rossum" : {
+    image: "/images/Rossum.jpg",
+    week: {
+      Monday: {
+        morning: {
+          "07:00 AM": "Wake up & morning coffee ☕",
+          "07:30 AM": "Reading tech blogs & catching up on Python discussions 📖",
+          "09:00 AM": "Deep coding session & reviewing Python enhancement proposals (PEPs) 💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & casual reading 🍽️",
+          "02:00 PM": "Meeting with developers & discussing Python improvements 👥",
+          "04:00 PM": "Contributing to open-source projects & code review 🚀",
+        },
+        evening: {
+          "06:30 PM": "Relaxing walk or light exercise 🚶",
+          "08:00 PM": "Dinner with family 🍽️",
+        },
+        night: {
+          "09:30 PM": "Reading books on software engineering & history 📚",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Tuesday: {
+        morning: {
+          "07:00 AM": "Wake up & brainstorming new Python ideas 💡",
+          "08:00 AM": "Breakfast & answering emails ☕",
+          "09:30 AM": "Working on personal coding projects & experimenting 🛠️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch 🍲",
+          "02:00 PM": "Mentoring developers & reviewing Python proposals 👨‍🏫",
+        },
+        evening: {
+          "06:30 PM": "Cycling or enjoying nature 🚴",
+          "08:00 PM": "Dinner & relaxing 🍽️",
+        },
+        night: {
+          "09:30 PM": "Reflecting on programming trends & Python's evolution 📖",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Wednesday: {
+        morning: {
+          "07:00 AM": "Wake up & coffee ☕",
+          "08:00 AM": "Researching functional programming & Python performance optimizations 📊",
+          "09:30 AM": "Deep work on improving Python's core features 🖥️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & reading tech books 🍜",
+          "02:00 PM": "Collaborating with Python contributors & addressing GitHub issues 🛠️",
+        },
+        evening: {
+          "06:30 PM": "Personal projects & side explorations 🌍",
+          "08:00 PM": "Dinner with family 🍽️",
+        },
+        night: {
+          "09:30 PM": "Unplugging from work & watching documentaries 🎬",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Thursday: {
+        morning: {
+          "07:00 AM": "Wake up & morning meditation 🧘",
+          "08:00 AM": "Breakfast & reading academic research 📑",
+          "09:30 AM": "Solving complex software engineering problems 🔍",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & discussing Python’s roadmap 🍛",
+          "02:00 PM": "Code refactoring & optimizing performance 🚀",
+        },
+        evening: {
+          "06:30 PM": "Tech meetups or community discussions 👥",
+          "08:00 PM": "Dinner & relaxation 🍽️",
+        },
+        night: {
+          "09:30 PM": "Writing thoughts on software development & best practices ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Friday: {
+        morning: {
+          "07:00 AM": "Wake up & morning walk 🚶",
+          "08:00 AM": "Breakfast & catching up on emails 📧",
+          "09:30 AM": "Pair programming & deep technical discussions 👨‍💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & reflecting on the week's progress 🍜",
+          "02:00 PM": "Finalizing work on Python improvements & testing new features 🛠️",
+        },
+        evening: {
+          "06:30 PM": "Music or podcast listening 🎵",
+          "08:00 PM": "Dinner & spending time with family 🍽️",
+        },
+        night: {
+          "09:30 PM": "Reading fiction or philosophical books 📚",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Saturday: {
+        morning: {
+          "08:00 AM": "Wake up & relaxed morning ☀️",
+          "09:30 AM": "Hiking or outdoor activities 🌿",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & engaging in hobbies 🍲",
+          "03:00 PM": "Writing about programming philosophy & experiences ✍️",
+        },
+        evening: {
+          "06:30 PM": "Watching movies or coding for fun 🎬",
+          "08:00 PM": "Dinner with friends 🍷",
+        },
+        night: {
+          "09:30 PM": "Thinking about future innovations in Python 🔥",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Sunday: {
+        morning: {
+          "08:30 AM": "Wake up & coffee ☕",
+          "10:00 AM": "Reading about AI & Python's future 📖",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & relaxing 🍜",
+          "03:00 PM": "Casual programming & answering community questions 💻",
+        },
+        evening: {
+          "06:30 PM": "Dinner & reflecting on career achievements 🍽️",
+          "08:00 PM": "Relaxing & spending quality time with family 🎶",
+        },
+        night: {
+          "09:30 PM": "Planning for the upcoming week 📅",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+    },
+  },
+  "Dennis Ritchie" :{
+    image: "/images/Dennis.png",
+    week: {
+      Monday: {
+        morning: {
+          "07:00 AM": "Wake up & morning coffee ☕",
+          "07:30 AM": "Reading technical papers & UNIX-related discussions 📖",
+          "09:00 AM": "Deep coding session on C language & UNIX kernel improvements 💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & informal discussions with colleagues 🍽️",
+          "02:00 PM": "Debugging & refining UNIX system architecture 🛠️",
+          "04:00 PM": "Collaborative work with Bell Labs researchers 🏢",
+        },
+        evening: {
+          "06:30 PM": "Reading classic computing books 📚",
+          "08:00 PM": "Dinner & unwinding with music 🎶",
+        },
+        night: {
+          "09:30 PM": "Writing notes on system design & language optimizations ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Tuesday: {
+        morning: {
+          "07:00 AM": "Wake up & quick walk outside 🚶",
+          "08:00 AM": "Breakfast & reviewing UNIX documentation 📑",
+          "09:30 AM": "Pair programming with Ken Thompson on UNIX enhancements 👨‍💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & casual discussions about software trends 🍜",
+          "02:00 PM": "Designing improvements in the C programming language 🔍",
+        },
+        evening: {
+          "06:30 PM": "Attending computing conferences or Bell Labs talks 🎤",
+          "08:00 PM": "Dinner with fellow researchers 🍷",
+        },
+        night: {
+          "09:30 PM": "Exploring new programming paradigms & reading 📖",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Wednesday: {
+        morning: {
+          "07:00 AM": "Wake up & coffee ☕",
+          "08:00 AM": "Reviewing system security & networking protocols 🔒",
+          "09:30 AM": "Hands-on work optimizing UNIX performance ⚙️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & discussion on UNIX scalability 🍽️",
+          "02:00 PM": "Researching new computing trends & algorithms 🔬",
+        },
+        evening: {
+          "06:30 PM": "Listening to classical music & unwinding 🎵",
+          "08:00 PM": "Dinner & casual reading 📚",
+        },
+        night: {
+          "09:30 PM": "Writing insights on UNIX history & contributions ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Thursday: {
+        morning: {
+          "07:00 AM": "Wake up & morning brainstorming 💡",
+          "08:00 AM": "Breakfast & debugging system issues ☕",
+          "09:30 AM": "Programming UNIX system tools & debugging 🖥️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch with fellow developers 🍲",
+          "02:00 PM": "Writing UNIX manuals & documentation 📄",
+        },
+        evening: {
+          "06:30 PM": "Exploring new hardware technologies 🔍",
+          "08:00 PM": "Dinner with close friends 🍽️",
+        },
+        night: {
+          "09:30 PM": "Researching emerging programming paradigms 🧠",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Friday: {
+        morning: {
+          "07:00 AM": "Wake up & morning walk 🚶",
+          "08:00 AM": "Breakfast & brainstorming new UNIX improvements ☕",
+          "09:30 AM": "Writing code for UNIX system stability 🚀",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & reviewing Bell Labs projects 🍜",
+          "02:00 PM": "Mentoring junior developers & discussing software architecture 👨‍🏫",
+        },
+        evening: {
+          "06:30 PM": "Reading computing research papers 📚",
+          "08:00 PM": "Dinner & reminiscing about early UNIX days 🍷",
+        },
+        night: {
+          "09:30 PM": "Reflecting on software innovation & evolution 🖥️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Saturday: {
+        morning: {
+          "08:00 AM": "Wake up & leisurely breakfast ☕",
+          "09:30 AM": "Exploring historical computing innovations 🔍",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & engaging in hobbies 🍲",
+          "03:00 PM": "Writing about UNIX's impact on modern computing ✍️",
+        },
+        evening: {
+          "06:30 PM": "Watching documentaries or computing history retrospectives 🎬",
+          "08:00 PM": "Dinner & relaxing 🍷",
+        },
+        night: {
+          "09:30 PM": "Philosophical thoughts on computing's future 🤔",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Sunday: {
+        morning: {
+          "08:30 AM": "Wake up & casual morning routine ☀️",
+          "10:00 AM": "Reading about AI & networking evolution 📖",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & reflecting on career milestones 🍜",
+          "03:00 PM": "Casual programming & reviewing past UNIX releases 💻",
+        },
+        evening: {
+          "06:30 PM": "Dinner & reminiscing about the early days of computing 🍽️",
+          "08:00 PM": "Relaxing & personal time 🎶",
+        },
+        night: {
+          "09:30 PM": "Planning for the upcoming week 📅",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+    },
+  },
+  "Grace Hopper": {
+    image: "/images/Grace.jpg",
+    week: {
+      Monday: {
+        morning: {
+          "06:00 AM": "Wake up & morning coffee ☕",
+          "06:30 AM": "Reading technical reports & research papers 📖",
+          "08:00 AM": "Breakfast & team briefing 🥞",
+          "09:00 AM": "Working on COBOL compiler & debugging code 💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch with colleagues 🍽️",
+          "01:30 PM": "Meetings with junior engineers & mentoring sessions 👩‍🏫",
+          "03:00 PM": "Testing & improving programming languages 🔍",
+        },
+        evening: {
+          "06:30 PM": "Attending or giving a technical talk 🎤",
+          "08:00 PM": "Dinner & networking with fellow engineers 🍷",
+        },
+        night: {
+          "09:30 PM": "Reading about advancements in computing 📚",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Tuesday: {
+        morning: {
+          "06:00 AM": "Wake up & light exercise 🚶‍♀️",
+          "07:00 AM": "Writing documentation for COBOL 📑",
+          "09:00 AM": "Experimenting with code optimizations 💻",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & brainstorming new ideas 🍛",
+          "02:00 PM": "Presenting findings & writing reports 📝",
+        },
+        evening: {
+          "06:30 PM": "Reviewing the day's work & planning ahead 🔍",
+          "08:00 PM": "Dinner with close friends 🍽️",
+        },
+        night: {
+          "09:30 PM": "Reviewing past computing breakthroughs 🖥️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Wednesday: {
+        morning: {
+          "06:00 AM": "Wake up & morning meditation 🧘‍♀️",
+          "07:00 AM": "Checking code & debugging systems 💻",
+          "09:30 AM": "Lecturing young programmers & engineers 👩‍🏫",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch with military & business professionals 🍜",
+          "02:00 PM": "Working on data processing innovations 🔬",
+        },
+        evening: {
+          "06:30 PM": "Exploring new hardware & technology trends 📡",
+          "08:00 PM": "Dinner & casual conversation 🍷",
+        },
+        night: {
+          "09:30 PM": "Studying mathematics & logic 📚",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Thursday: {
+        morning: {
+          "06:00 AM": "Wake up & morning brainstorming 💡",
+          "07:30 AM": "Breakfast & reviewing coding standards ☕",
+          "09:00 AM": "Writing research papers on software engineering 📄",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & military programming discussions 🍲",
+          "02:00 PM": "Teaching & mentoring engineers 👨‍🏫",
+        },
+        evening: {
+          "06:30 PM": "Reading books on leadership & innovation 📖",
+          "08:00 PM": "Dinner with industry experts 🍽️",
+        },
+        night: {
+          "09:30 PM": "Reflecting on computing's future ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Friday: {
+        morning: {
+          "06:00 AM": "Wake up & quick coffee ☕",
+          "07:00 AM": "Checking the latest programming developments 💻",
+          "09:00 AM": "Working on legacy system improvements 🖥️",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & discussing computer science history 🍜",
+          "02:00 PM": "Meeting young female engineers & inspiring them 🚀",
+        },
+        evening: {
+          "06:30 PM": "Giving a speech or attending a conference 🎤",
+          "08:00 PM": "Dinner & winding down 🍷",
+        },
+        night: {
+          "09:30 PM": "Reviewing old code & innovations 🔍",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Saturday: {
+        morning: {
+          "07:30 AM": "Wake up & casual breakfast ☕",
+          "09:00 AM": "Reflecting on past achievements & industry growth 📜",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & personal research on computer languages 🍲",
+          "03:00 PM": "Exploring new ideas in software development 🖥️",
+        },
+        evening: {
+          "06:30 PM": "Reading historical computing books 📖",
+          "08:00 PM": "Dinner with colleagues 🍽️",
+        },
+        night: {
+          "09:30 PM": "Writing about technology & innovation ✍️",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+      Sunday: {
+        morning: {
+          "08:00 AM": "Wake up & relaxing morning ☀️",
+          "09:30 AM": "Reflecting on computing ethics & progress 🤔",
+        },
+        afternoon: {
+          "12:30 PM": "Lunch & mentoring discussions 🍜",
+          "03:00 PM": "Personal projects & reviewing past work 💻",
+        },
+        evening: {
+          "06:30 PM": "Dinner & unwinding 🎶",
+          "08:00 PM": "Relaxing with music or books 🎼",
+        },
+        night: {
+          "09:30 PM": "Writing future visions for computing 🚀",
+          "10:30 PM": "Sleep 🛏️",
+        },
+      },
+    },
+  }
 };
 
 export default routines;
