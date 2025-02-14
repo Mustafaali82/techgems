@@ -689,6 +689,47 @@ h3 {
     .quotes_title {
         font-size: 2.5rem;
     }
+    .routine_top h2{
+        font-size: 23px;
+    }
+    .close-btn{
+        font-size: 1rem;
+    }
+
+    .day-selector {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .routine-modal{
+        width: 90%;
+    }
+
+    .routine-section h3{
+        font-size: 20px;
+    }
+    .routine-section p{
+        font-size: 1rem;
+    }
+    .routine-section p strong{
+        font-size: 16px;
+        min-width: 80px;
+    }
+    
+    .day-btn{
+        padding: 6px 14px;
+    }
+
+    .routine-card {
+        width: 100%;
+    }
+    
+    .routine-container{
+        padding: 30px;
+    }
+    
+    .routine-grid{
+        padding: 0 20px;
+    }
 }
 
 @media screen and (min-width: 851px) and (max-width: 1300px) {
@@ -696,7 +737,7 @@ h3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
+    
     .card {
         width: 100%;
     }
