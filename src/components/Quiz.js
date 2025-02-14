@@ -1,56 +1,109 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
-const quizQuestions = [
+const questions = [
   {
-    question: "What time does Elon Musk usually wake up?",
-    options: ["5:30 AM", "6:00 AM", "7:00 AM", "8:00 AM"],
-    answer: "7:00 AM",
+    question: "Who created the C programming language?",
+    options: [
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "James Gosling",
+      "Ken Thompson",
+    ],
+    answer: "Dennis Ritchie",
   },
   {
-    question: "Which personality co-founded Google?",
-    options: ["Elon Musk", "Steve Jobs", "Larry Page", "Bill Gates"],
-    answer: "Larry Page",
+    question: "Who is known as the father of the World Wide Web?",
+    options: ["Vint Cerf", "Tim Berners-Lee", "Robert Kahn", "Marc Andreessen"],
+    answer: "Tim Berners-Lee",
   },
   {
-    question: "Who is the creator of Python?",
-    options: ["Linus Torvalds", "Bjarne Stroustrup", "Guido van Rossum", "Dennis Ritchie"],
+    question: "Who co-founded Google?",
+    options: ["Elon Musk", "Bill Gates", "Sergey Brin", "Mark Zuckerberg"],
+    answer: "Sergey Brin",
+  },
+  {
+    question: "Who developed the Python programming language?",
+    options: [
+      "Guido van Rossum",
+      "Larry Page",
+      "Linus Torvalds",
+      "Grace Hopper",
+    ],
     answer: "Guido van Rossum",
+  },
+  {
+    question: "Who is the creator of Linux?",
+    options: [
+      "Richard Stallman",
+      "Linus Torvalds",
+      "Dennis Ritchie",
+      "Ken Thompson",
+    ],
+    answer: "Linus Torvalds",
   },
 ];
 
 const Quiz = () => {
+  const [shuffledQuestions, setShuffledQuestions] = useState([]);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
-  const [showScore, setShowScore] = useState(false);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [showResult, setShowResult] = useState(false);
 
-  const handleAnswerOptionClick = (selectedOption) => {
-    if (selectedOption === quizQuestions[currentQuestion].answer) {
+  useEffect(() => {
+    setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
+  }, []);
+
+  const handleAnswer = (option) => {
+    setSelectedOption(option);
+    if (option === shuffledQuestions[currentQuestion].answer) {
       setScore(score + 1);
     }
+    setTimeout(() => {
+      if (currentQuestion + 1 < shuffledQuestions.length) {
+        setCurrentQuestion(currentQuestion + 1);
+        setSelectedOption(null);
+      } else {
+        setShowResult(true);
+      }
+    }, 1000);
+  };
 
-    const nextQuestion = currentQuestion + 1;
-    if (nextQuestion < quizQuestions.length) {
-      setCurrentQuestion(nextQuestion);
-    } else {
-      setShowScore(true);
-    }
+  const restartQuiz = () => {
+    setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
+    setCurrentQuestion(0);
+    setScore(0);
+    setSelectedOption(null);
+    setShowResult(false);
   };
 
   return (
     <div className="quiz-container">
-      {showScore ? (
-        <div className="score-section">
-          You scored {score} out of {quizQuestions.length}!
+      {showResult ? (
+        <div className="result-container">
+          <h2>
+            Your Score: {score} / {shuffledQuestions.length}
+          </h2>
+          <button onClick={restartQuiz}>Restart Quiz</button>
         </div>
       ) : (
-        <div className="question-section">
-          <h2>{quizQuestions[currentQuestion].question}</h2>
-          <div className="options">
-            {quizQuestions[currentQuestion].options.map((option) => (
-              <button key={option} onClick={() => handleAnswerOptionClick(option)}>
-                {option}
-              </button>
-            ))}
+        <div className="question-container">
+          <h3>{shuffledQuestions[currentQuestion]?.question}</h3>
+          <div className="options-container">
+            {shuffledQuestions[currentQuestion]?.options.map(
+              (option, index) => (
+                <button
+                  key={index}
+                  className={`option-button ${
+                    selectedOption === option ? "selected" : ""
+                  }`}
+                  onClick={() => handleAnswer(option)}
+                  disabled={selectedOption !== null}
+                >
+                  {option}
+                </button>
+              )
+            )}
           </div>
         </div>
       )}
