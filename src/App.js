@@ -6,6 +6,7 @@ import Story from "./components/Story";
 import Quotes from "./components/Quotes";
 import personalities from "./data/personalities";
 import Routine from "./components/Routine";
+import Quiz from "./components/Quiz";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -36,6 +37,7 @@ function App() {
           />
           <Route path="/quotes" element={<Quotes />} />
           <Route path="/routine" element={<Routine />} />
+          <Route path="/quiz" element={<Quiz />} />
         </Routes>
       </Router>
     </div>
