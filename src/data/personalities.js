@@ -30,7 +30,7 @@ const personalities = [
   
       His ability to think across multiple domains and his commitment to supporting others through Y Combinator has solidified his position as one of the most influential figures in Silicon Valley.
     `,
-    img: "/images/Paul.webp",
+    img: "/Paul.webp",
     socialLinks: {
       twitter: "https://twitter.com/paulg",
       linkedin: "https://www.linkedin.com/in/paulgraham",
@@ -73,7 +73,7 @@ const personalities = [
       **Impact and Controversy**: 
       While Musk's innovations have garnered praise, his actions on social media, particularly Twitter, have sometimes led to controversies and legal challenges. Despite this, he remains one of the world’s most important and polarizing figures in the fields of technology, engineering, and business.
     `,
-    img: "/images/Elon.png",
+    img: "/Elon.png",
     socialLinks: {
       twitter: "https://twitter.com/elonmusk",
       linkedin: "https://www.linkedin.com/in/elonmusk",
@@ -113,7 +113,7 @@ const personalities = [
       **Controversies**: 
       Despite his success, Zuckerberg has faced significant controversies. Facebook has been criticized for its role in the spread of misinformation, privacy violations, and its handling of user data. Zuckerberg himself has testified before the U.S. Congress about these issues and worked on reforms to address concerns about Facebook’s impact on society.
     `,
-    img: "/images/Mark.png",
+    img: "/Mark.png",
     socialLinks: {
       twitter: "https://twitter.com/finkd",
       linkedin: "https://www.linkedin.com/in/markzuckerberg",
@@ -152,7 +152,7 @@ const personalities = [
       **Controversies**: 
       Jobs’ leadership style and work ethic were often characterized as uncompromising, and he has been criticized for his harsh treatment of employees. Additionally, his public stance on some technical and business matters, such as his control over the iTunes store and Apple’s proprietary hardware, has generated debate about the broader implications of his business philosophy.
     `,
-    img: "/images/Steve.png",
+    img: "/Steve.png",
     socialLinks: {
       twitter: "https://twitter.com/stevejobs",
       linkedin: "https://www.linkedin.com/in/stevejobs",
@@ -185,7 +185,7 @@ const personalities = [
       **Controversy**: 
       While Turing's contribution to cryptography, artificial intelligence, and mathematics are irrefutable, his mistreatment by the British government serves as a painful part of his legacy. Despite his immense scientific contributions, his wrongful conviction for his sexuality remains a dark chapter in history.
     `,
-    img: "/images/Alun.png",
+    img: "/Alun.png",
     socialLinks: {
       twitter: "https://twitter.com/alan_turing",
       linkedin: "https://www.linkedin.com/in/alan-turing/",
@@ -222,7 +222,7 @@ const personalities = [
       **Legacy in Open Source**: 
       Apart from Blender, Roosendaal is widely considered one of the figures that revitalized open-source development in creative software, showing how user-driven communities could flourish and compete with commercial products. His vision for digital creation, democratization of tools, and commitment to continuous development has influenced open-source communities in numerous sectors.
     `,
-    img: "/images/Roosendaal.png",
+    img: "/Roosendaal.png",
     socialLinks: {
       twitter: "https://twitter.com/tonroosendaal",
       linkedin: "https://www.linkedin.com/in/tonroosendaal/",
@@ -258,7 +258,7 @@ const personalities = [
       **Legacy**: 
       Today, Linus Torvalds is hailed as one of the pioneers of modern open-source software. Through Linux and Git, Torvalds has had a far-reaching impact on how software development is done, how operating systems are built, and how global collaboration can solve complex technical challenges.
     `,
-    img: "/images/Linus Torvalds.png",
+    img: "/Linus Torvalds.png",
     socialLinks: {
       twitter: "https://twitter.com/linus__torvalds",
       linkedin: "https://www.linkedin.com/in/linustorvalds/",
@@ -293,7 +293,7 @@ const personalities = [
       **Legacy**: 
       Bjarne Stroustrup is widely regarded as one of the most influential figures in computer science. His work on C++ fundamentally changed the programming world and laid the groundwork for modern software development in areas like operating systems, high-performance computing, and embedded systems. Stroustrup’s influence remains at the core of many key software projects and continues to shape the evolution of software engineering.
     `,
-    img: "/images/Bjrane.png",
+    img: "/Bjrane.png",
     socialLinks: {
       twitter: "https://twitter.com/bjarne_stroustrup",
       linkedin: "https://www.linkedin.com/in/bjarne-stroustrup-74201511/",
@@ -327,7 +327,7 @@ const personalities = [
       **Legacy and Influence**: 
       Through his creation of Google, Larry Page forever changed the technological landscape. Page’s contributions continue to influence not only the tech industry but also economics, culture, and society. He is seen as a visionary who advanced information sharing and digital accessibility.
     `,
-    img: "/images/Larry.png",
+    img: "/Larry.png",
     socialLinks: {
       twitter: "https://twitter.com/larrypage",
       linkedin: "https://www.linkedin.com/in/larry-page-0a7a1126/",
@@ -364,7 +364,7 @@ const personalities = [
   
       Sergey Brin, along with Larry Page, helped to shape the modern internet and changed how we connect, learn, and live.
     `,
-    img: "/images/Brin.png",
+    img: "/Brin.png",
     socialLinks: {
       twitter: "https://twitter.com/sergeybrinn",
       linkedin: "https://www.linkedin.com/in/sergeybrin",
@@ -409,7 +409,7 @@ const personalities = [
   
       As the inventor of the World Wide Web, Tim Berners-Lee’s vision and contributions continue to drive technological innovation and social progress. His legacy as a technological pioneer remains unmatched.
     `,
-    img: "/images/Tim.png",
+    img: "/Tim.png",
     socialLinks: {
       twitter: "https://twitter.com/timberners_lee",
       linkedin: "https://www.linkedin.com/in/tim-berners-lee",
@@ -446,7 +446,7 @@ const personalities = [
       **Legacy**:
       Jordan Walke’s work continues to define front-end development. His contributions have not only influenced how developers build web applications but have also shaped the culture of open-source development. React.js remains a cornerstone of modern web and mobile app development, making Jordan Walke one of the unsung heroes of the software engineering world.
     `,
-    img: "/images/Jordan.png",
+    img: "/Jordan.png",
     socialLinks: {
       twitter: "https://twitter.com/jordwalke",
       linkedin: "https://www.linkedin.com/in/jordanwalke",
@@ -485,7 +485,7 @@ const personalities = [
       **Impact on the Software Industry**:
       Python’s versatility and ease of use have made it a core technology for teaching programming, artificial intelligence, data analysis, and web development. Guido’s contributions to software engineering have inspired countless developers and reshaped how programming languages are designed.
     `,
-    img: "/images/Rossum.jpg",
+    img: "/Rossum.jpg",
     socialLinks: {
       twitter: "https://twitter.com/gvanrossum",
       linkedin: "https://www.linkedin.com/in/guido-van-rossum",
@@ -522,7 +522,7 @@ const personalities = [
       **Impact on the Industry**:
       From operating systems to web browsers, Ritchie's innovations form the backbone of modern technology. His design principles in UNIX and the structure of C continue to guide the software development practices of today.
     `,
-    img: "/images/Dennis.png",
+    img: "/Dennis.png",
     socialLinks: {
       twitter: null,
       linkedin: null,
@@ -563,7 +563,7 @@ const personalities = [
       **Famous Quote**:
       "The most dangerous phrase in the language is, 'We've always done it this way.'"
     `,
-    img: "/images/Grace.jpeg",
+    img: "/Grace.jpeg",
     socialLinks: {
       twitter: null,
       linkedin: null,

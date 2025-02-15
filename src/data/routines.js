@@ -138,7 +138,7 @@ const routines = {
     },
   },
   "Elon Musk": {
-    image: "/images/Elon.png",
+    image: "/Elon.png",
     week: {
       Monday: {
         morning: {
@@ -280,7 +280,7 @@ const routines = {
     },
   },
   "Mark Zuckerberg": {
-    image: "/images/Mark.png",
+    image: "/Mark.png",
     week: {
       Monday: {
         morning: {
@@ -424,7 +424,7 @@ const routines = {
     },
   },
   "Steve Jobs": {
-    image: "/images/Steve.png",
+    image: "/Steve.png",
     week: {
       Monday: {
         morning: {
@@ -569,7 +569,7 @@ const routines = {
     },
   },
   "Alan Turing": {
-    image: "/images/Alun.png",
+    image: "/Alun.png",
     week: {
       Monday: {
         morning: {
@@ -712,7 +712,7 @@ const routines = {
     },
   },
   "Ton Roosendaal": {
-    image: "/images/Roosendaal.png",
+    image: "/Roosendaal.png",
     week: {
       Monday: {
         morning: {
@@ -852,7 +852,7 @@ const routines = {
     },
   },
   "Linus Torvalds": {
-    image: "/images/Linus Torvalds.png",
+    image: "/Linus Torvalds.png",
     week: {
       Monday: {
         morning: {
@@ -984,7 +984,7 @@ const routines = {
     },
   },
   "Bjarne Stroustrup": {
-    image: "/images/Bjrane.png",
+    image: "/Bjrane.png",
     week: {
       Monday: {
         morning: {
@@ -1121,7 +1121,7 @@ const routines = {
     },
   },
   "Larry Page": {
-    image: "/images/Larry.png",
+    image: "/Larry.png",
     week: {
       Monday: {
         morning: {
@@ -1259,7 +1259,7 @@ const routines = {
     },
   },
   "Sergey Brin": {
-    image: "/images/brin.png",
+    image: "/brin.png",
     week: {
       Monday: {
         morning: {
@@ -1401,7 +1401,7 @@ const routines = {
     },
   },
   "Tim Berners-Lee": {
-    image: "/images/Tim.png",
+    image: "/Tim.png",
     week: {
       Monday: {
         morning: {
@@ -1539,7 +1539,7 @@ const routines = {
     },
   },
   "Jordan Walke": {
-    image: "/images/Jordan.png",
+    image: "/Jordan.png",
     week: {
       Monday: {
         morning: {
@@ -1676,7 +1676,7 @@ const routines = {
     },
   },
   "Guido Van Rossum" : {
-    image: "/images/Rossum.jpg",
+    image: "/Rossum.jpg",
     week: {
       Monday: {
         morning: {
@@ -1813,7 +1813,7 @@ const routines = {
     },
   },
   "Dennis Ritchie" :{
-    image: "/images/Dennis.png",
+    image: "/Dennis.png",
     week: {
       Monday: {
         morning: {
@@ -1950,7 +1950,7 @@ const routines = {
     },
   },
   "Grace Hopper": {
-    image: "/images/Grace.jpg",
+    image: "/Grace.jpg",
     week: {
       Monday: {
         morning: {
