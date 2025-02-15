@@ -127,6 +127,12 @@ body {
     border: 0;
 }
 
+.dark-mode .option-button{
+    color: white;
+    background-color: #333333;
+    border: 1px;
+}
+
 /* Navbar Styles */
 
 .navbar {
@@ -586,11 +592,12 @@ body {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    padding: 0 20px;
     min-height: 92vh;
 }
 
 .question {
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Bellefair', serif;
     margin-bottom: 20px;
 }
@@ -601,70 +608,30 @@ body {
     margin-bottom: 20px;
 }
 
-/* Pricing */
-
-/* Styling the pricing container */
-/* .pricing-container {
+.options-container {
     display: flex;
     justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-    height: 100%;
-} */
+    align-items: center;
+    gap: 30px;
+}
 
-/* Styling each pricing card */
-/* .pricing-card {
-    width: 250px;
-    height: 350px;
-    border: 2px solid #ddd;
+.option-button {
+    padding: 7px 28px;
+    font-size: 1.5rem;
+    background-color: white;
+    font-family: 'Bellefair', serif;
     border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.pricing-card:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.pricing-card h3 {
-    font-size: 22px;
-    color: #333;
-}
-
-.pricing-card p {
-    color: #555;
-}
-
-.pricing-card button {
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
+    transition: .5s;
+    border: 1px solid;
+    outline: none;
 }
 
-.pricing-card button:hover {
-    background-color: #0056b3;
-} */
-
-/* Highlighting selected plan */
-
-/* .pricing-card.selected {
-    border: 2px solid #007bff;
-    background-color: #e0f7fa;
+.option-button:hover{
+    background-color: black;
+    color: white;
 }
 
-h3 {
-    color: #333;
-}
-
-.pricing-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-} */
 
 /* Responsive */
 
@@ -758,8 +725,16 @@ h3 {
     .routine-grid {
         padding: 0 20px;
     }
-}
 
+    .options-container{
+        flex-wrap:wrap;
+    }
+
+    .question{
+        font-size: 30px;
+    }
+}
+/* Tablet Responsive */
 @media screen and (min-width: 851px) and (max-width: 1300px) {
     .personality-cards {
         display: grid;
@@ -789,5 +764,8 @@ h3 {
 
     .story-content {
         margin: 50px 0 0;
+    }
+    .options-container{
+        flex-wrap: wrap;
     }
 }
