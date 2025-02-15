@@ -436,7 +436,7 @@ body {
 
 .routine-modal {
     background: white;
-    padding: 20px 20px ;
+    padding: 20px 20px;
     width: 80%;
     max-width: 800px;
     border-radius: 10px;
@@ -580,7 +580,7 @@ body {
 
 /* Quizes */
 
-.quiz-container{
+.quiz-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -589,13 +589,13 @@ body {
     min-height: 92vh;
 }
 
-.question{
+.question {
     font-size: 40px;
     font-family: 'Bellefair', serif;
     margin-bottom: 20px;
 }
 
-.result-container h2{
+.result-container h2 {
     font-size: 40px;
     font-family: 'Bellefair', serif;
     margin-bottom: 20px;
@@ -712,10 +712,12 @@ h3 {
     .quotes_title {
         font-size: 2.5rem;
     }
-    .routine_top h2{
+
+    .routine_top h2 {
         font-size: 23px;
     }
-    .close-btn{
+
+    .close-btn {
         font-size: 1rem;
     }
 
@@ -723,34 +725,37 @@ h3 {
         display: flex;
         flex-wrap: wrap;
     }
-    .routine-modal{
+
+    .routine-modal {
         width: 90%;
     }
 
-    .routine-section h3{
+    .routine-section h3 {
         font-size: 20px;
     }
-    .routine-section p{
+
+    .routine-section p {
         font-size: 1rem;
     }
-    .routine-section p strong{
+
+    .routine-section p strong {
         font-size: 16px;
         min-width: 80px;
     }
-    
-    .day-btn{
+
+    .day-btn {
         padding: 6px 14px;
     }
 
     .routine-card {
         width: 100%;
     }
-    
-    .routine-container{
+
+    .routine-container {
         padding: 30px;
     }
-    
-    .routine-grid{
+
+    .routine-grid {
         padding: 0 20px;
     }
 }
@@ -760,7 +765,7 @@ h3 {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .card {
         width: 100%;
     }
