@@ -16,7 +16,7 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
             <Link to="/routine">Routines</Link>
           </li>
           <li>
-            <Link to="/quiz">Quiz</Link>
+            <Link to="/quiz">Quizes</Link>
           </li>
         </div>
         <div className="theme-icon">

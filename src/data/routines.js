@@ -1,6 +1,6 @@
 const routines = {
   "Paul Graham": {
-    image: "/images/Paul.webp",
+    image: "/Paul.webp",
     week: {
       Monday: {
         morning: {
