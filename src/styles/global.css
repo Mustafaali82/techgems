@@ -578,6 +578,29 @@ body {
     font-size: 30px;
 }
 
+/* Quizes */
+
+.quiz-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    min-height: 92vh;
+}
+
+.question{
+    font-size: 40px;
+    font-family: 'Bellefair', serif;
+    margin-bottom: 20px;
+}
+
+.result-container h2{
+    font-size: 40px;
+    font-family: 'Bellefair', serif;
+    margin-bottom: 20px;
+}
+
 /* Pricing */
 
 /* Styling the pricing container */

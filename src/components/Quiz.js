@@ -98,7 +98,7 @@ const Quiz = () => {
         </div>
       ) : (
         <div className="question-container">
-          <h3>{shuffledQuestions[currentQuestion]?.question}</h3>
+          <h3 className="question">{shuffledQuestions[currentQuestion]?.question}</h3>
           <div className="options-container">
             {shuffledQuestions[currentQuestion]?.options.map(
               (option, index) => (
