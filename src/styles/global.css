@@ -91,9 +91,9 @@ body {
     background: none;
     border: none;
     color: inherit;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     cursor: pointer;
-    font-family: "Bellefair", serif;
+    font-family: "Montserrat", serif;
 }
 
 .dark-mode .card {
@@ -127,7 +127,7 @@ body {
     border: 0;
 }
 
-.dark-mode .option-button{
+.dark-mode .option-button {
     color: white;
     background-color: #333333;
     border: 1px;
@@ -151,6 +151,7 @@ body {
     padding: 0;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .menu-list {
@@ -159,8 +160,8 @@ body {
 }
 
 .navbar-list li {
-    font-size: 1.5rem;
-    font-family: "Bellefair", serif;
+    font-size: 1.1rem;
+    font-family: "Montserrat", serif;
 }
 
 .navbar-list li a {
@@ -184,11 +185,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: "Bellefair", serif;
+    font-family: "Montserrat", serif;
 }
 
 .home-title {
-    font-size: 4.5rem;
+    font-size: 4rem;
     margin-bottom: 30px;
     text-align: center;
     width: fit-content;
@@ -228,13 +229,13 @@ body {
 }
 
 .card-content h2 {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 .card-content p {
-    font-size: 1.3rem;
-    line-height: 35px;
+    font-size: 1rem;
+    line-height: 30px;
     color: #6d6d6d;
 }
 
@@ -245,7 +246,7 @@ body {
     color: black;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     border: 2px solid black;
     transition: .5s;
 }
@@ -306,8 +307,8 @@ body {
 
 .story-info p {
     margin: 0.9rem 0;
-    font-family: "Bellefair", serif;
-    font-size: 27px;
+    font-family: "Montserrat", serif;
+    font-size: 25px;
     line-height: 38px;
 }
 
@@ -320,7 +321,7 @@ body {
 }
 
 .story-content h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
     font-family: "Yesteryear", serif;
 }
@@ -328,8 +329,8 @@ body {
 .story-content p {
     line-height: 1.8;
     margin-top: 0.5rem;
-    font-size: 22px;
-    font-family: "Bellefair", serif;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
 }
 
 
@@ -337,7 +338,7 @@ body {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     color: white;
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: "Yesteryear", serif;
 }
 
@@ -351,8 +352,8 @@ body {
 
 .story-links li {
     margin: 0.8rem 10px;
-    font-family: "Bellefair", serif;
-    font-size: 27px;
+    font-family: "Montserrat", serif;
+    font-size: 25px;
 }
 
 
@@ -368,7 +369,7 @@ body {
 .error {
     text-align: center;
     color: #d9534f;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 /* Quotes */
@@ -377,7 +378,7 @@ body {
     text-align: center;
     padding: 20px;
     min-height: 92vh;
-    font-family: 'Bellefair', serif;
+    font-family: "Montserrat", serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -387,7 +388,7 @@ body {
 .quotes_card {
     max-width: 800px;
     margin: 20px auto;
-    padding: 50px 20px;
+    padding: 30px 20px;
     background-color: #E2E2E2;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -397,15 +398,15 @@ body {
 }
 
 .quotes_title {
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-style: italic;
     color: black;
     margin-bottom: 15px;
+    letter-spacing: 1px;
 }
 
 .quotes_author {
-    font-size: 1.5rem;
-    font-weight: 100;
+    font-size: 1rem;
     color: black;
     text-align: right;
     font-style: italic;
@@ -414,15 +415,14 @@ body {
 .quotes_button {
     margin: 10px 20px;
     padding: 18px 35px;
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.5rem;
     color: black;
     background-color: #E2E2E2;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
     border: 2px solid white;
-    font-family: 'Bellefair', serif;
+    font-family: "Montserrat", serif;
 }
 
 /* Routine Page */
@@ -449,7 +449,7 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     animation: fadeIn 0.3s ease-in-out;
     outline: none;
-    font-family: 'Bellefair', serif;
+    font-family: "Montserrat", serif;
 }
 
 @keyframes fadeIn {
@@ -475,11 +475,11 @@ body {
     padding: 8px 15px;
     border: none;
     background: #ddd;
-    font-size: 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
     border-radius: 50px;
     transition: background 0.3s, transform 0.2s;
-    font-family: 'Bellefair', serif;
+    font-family: "Montserrat", serif;
 }
 
 .day-btn:hover {
@@ -502,7 +502,7 @@ body {
 .routine-container {
     text-align: center;
     padding: 20px 0;
-    font-family: 'Bellefair', serif;
+    font-family: "Montserrat", serif;
 }
 
 .routine-title {
@@ -515,12 +515,12 @@ body {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background: white;
 }
 
 .routine-section p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #333;
     padding: 5px 0;
     display: flex;
@@ -531,7 +531,7 @@ body {
 .routine-section p strong {
     color: black;
     min-width: 100px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .routine-section {
@@ -542,16 +542,16 @@ body {
 }
 
 .routine-section h3 {
-    font-size: 25px;
+    font-size: 17px;
     text-align: center;
-    margin: 10px 0;
+    margin: 15px 0;
     border-bottom: 4px solid;
     width: fit-content;
 }
 
 .routine-image {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 100px;
     cursor: pointer;
     transition: .5s;
@@ -571,7 +571,7 @@ body {
 }
 
 .routine-person-name {
-    font-size: 28px;
+    font-size: 20px;
 }
 
 .routine_top {
@@ -581,7 +581,7 @@ body {
 }
 
 .routine_top h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 /* Quizes */
@@ -597,14 +597,14 @@ body {
 }
 
 .question {
-    font-size: 45px;
-    font-family: 'Bellefair', serif;
+    font-size: 35px;
+    font-family: "Montserrat", serif;
     margin-bottom: 20px;
 }
 
 .result-container h2 {
-    font-size: 40px;
-    font-family: 'Bellefair', serif;
+    font-size: 25px;
+    font-family: "Montserrat", serif;
     margin-bottom: 20px;
 }
 
@@ -617,9 +617,9 @@ body {
 
 .option-button {
     padding: 7px 28px;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     background-color: white;
-    font-family: 'Bellefair', serif;
+    font-family: "Montserrat", serif;
     border-radius: 8px;
     cursor: pointer;
     transition: .5s;
@@ -627,7 +627,7 @@ body {
     outline: none;
 }
 
-.option-button:hover{
+.option-button:hover {
     background-color: black;
     color: white;
 }
@@ -726,14 +726,15 @@ body {
         padding: 0 20px;
     }
 
-    .options-container{
-        flex-wrap:wrap;
+    .options-container {
+        flex-wrap: wrap;
     }
 
-    .question{
+    .question {
         font-size: 30px;
     }
 }
+
 /* Tablet Responsive */
 @media screen and (min-width: 851px) and (max-width: 1300px) {
     .personality-cards {
@@ -765,7 +766,8 @@ body {
     .story-content {
         margin: 50px 0 0;
     }
-    .options-container{
+
+    .options-container {
         flex-wrap: wrap;
     }
 }
