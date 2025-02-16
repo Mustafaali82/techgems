@@ -1259,7 +1259,7 @@ const routines = {
     },
   },
   "Sergey Brin": {
-    image: "/brin.png",
+    image: "/Brin.png",
     week: {
       Monday: {
         morning: {
