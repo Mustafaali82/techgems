@@ -229,7 +229,7 @@ body {
 }
 
 .card-content h2 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin-bottom: 10px;
 }
 
@@ -308,8 +308,8 @@ body {
 .story-info p {
     margin: 0.9rem 0;
     font-family: "Montserrat", serif;
-    font-size: 25px;
-    line-height: 38px;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 .story-content {
@@ -327,9 +327,9 @@ body {
 }
 
 .story-content p {
-    line-height: 1.8;
+    line-height: 35px;
     margin-top: 0.5rem;
-    font-size: 15px;
+    font-size: 18px;
     font-family: "Montserrat", serif;
 }
 
@@ -353,7 +353,7 @@ body {
 .story-links li {
     margin: 0.8rem 10px;
     font-family: "Montserrat", serif;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 
@@ -377,7 +377,7 @@ body {
 .quotes_container {
     text-align: center;
     padding: 20px;
-    min-height: 92vh;
+    min-height: 92.3vh;
     font-family: "Montserrat", serif;
     display: flex;
     justify-content: center;
@@ -388,7 +388,7 @@ body {
 .quotes_card {
     max-width: 800px;
     margin: 20px auto;
-    padding: 30px 20px;
+    padding: 30px 30px;
     background-color: #E2E2E2;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -403,6 +403,7 @@ body {
     color: black;
     margin-bottom: 15px;
     letter-spacing: 1px;
+    line-height: 40px;
 }
 
 .quotes_author {
