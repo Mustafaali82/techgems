@@ -133,6 +133,14 @@ body {
     border: 1px;
 }
 
+.dark-mode .result-container button {
+    background-color: #181818;
+    border: 2px solid;
+    color: white;
+}
+
+
+
 /* Navbar Styles */
 
 .navbar {
@@ -598,6 +606,10 @@ body {
     min-height: 92.3vh;
 }
 
+.question-container{
+    
+}
+
 .question {
     font-size: 35px;
     font-family: "Montserrat", serif;
@@ -634,7 +646,7 @@ body {
     color: white;
 }
 
-.result-container button{
+.result-container button {
     font-size: 20px;
     padding: 10px 30px;
     border-radius: 8px;
@@ -645,18 +657,18 @@ body {
     font-family: "Montserrat", serif;
 }
 
-.result-container button:hover{
+.result-container button:hover {
     background-color: #181818;
     border: 2px solid #181818;
     color: white;
 }
 
-.dark-mode .result-container button {
-    background-color: #181818;
-    border: 2px solid;
-    color: white;
+.question-timer{
+    font-size: 50px;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    padding-bottom: 30px;
 }
-
 
 /* Responsive */
 
@@ -700,9 +712,11 @@ body {
         margin: 50px 0 0;
         padding: 20px;
     }
+
     .quotes_button {
         font-size: 1rem;
     }
+
     .routine_top h2 {
         font-size: 17px;
     }
@@ -747,7 +761,7 @@ body {
         padding: 25px;
     }
 
-    .home-container{
+    .home-container {
         padding: 25px;
     }
 
@@ -769,7 +783,7 @@ body {
         font-size: 1rem;
     }
 
-    .theme-toggle{
+    .theme-toggle {
         font-size: 0.7rem;
     }
 

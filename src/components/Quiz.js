@@ -94,7 +94,7 @@ const Quiz = () => {
         </div>
       ) : (
         <div className="question-container">
-          <div className="timer">{timeLeft} sec</div>
+          <div className="question-timer">{timeLeft}</div>
           <h3 className="question">
             {shuffledQuestions[currentQuestion]?.question}
           </h3>
