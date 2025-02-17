@@ -704,7 +704,7 @@ body {
         font-size: 1rem;
     }
     .routine_top h2 {
-        font-size: 23px;
+        font-size: 17px;
     }
 
     .close-btn {
@@ -717,20 +717,22 @@ body {
     }
 
     .routine-modal {
-        width: 90%;
+        width: 95%;
+        padding: 20px 10px;
     }
 
     .routine-section h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .routine-section p {
-        font-size: 1rem;
+        font-size: 0.7rem;
+        color: black;
     }
 
     .routine-section p strong {
-        font-size: 16px;
-        min-width: 80px;
+        font-size: 12px;
+        min-width: 70px;
     }
 
     .day-btn {
