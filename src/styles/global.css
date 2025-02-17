@@ -569,7 +569,7 @@ body {
 }
 
 .routine-card:hover {
-    transform: scale(1.1) !important;
+    transform: scale(1.05) !important;
 }
 
 .routine-person-name {
@@ -742,19 +742,25 @@ body {
     }
 
     .routine-container {
-        padding: 30px;
+        padding: 25px;
+    }
+
+    .home-container{
+        padding: 25px;
     }
 
     .routine-grid {
-        padding: 0 20px;
+        padding: 0 0px;
     }
 
     .options-container {
         flex-wrap: wrap;
+        gap: 20px;
     }
 
     .question {
-        font-size: 30px;
+        font-size: 25px;
+        line-height: 40px;
     }
 
     .navbar-list li {
@@ -767,6 +773,10 @@ body {
 
     .navbar {
         padding: 1rem 0.5rem;
+    }
+
+    .option-button {
+        width: 100%;
     }
 }
 
