@@ -1,9 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 const questions = [
   {
     question: "Who invented the C programming language?",
-    options: ["Bjarne Stroustrup", "Dennis Ritchie", "Guido van Rossum", "James Gosling"],
+    options: [
+      "Bjarne Stroustrup",
+      "Dennis Ritchie",
+      "Guido van Rossum",
+      "James Gosling",
+    ],
     answer: "Dennis Ritchie",
   },
   {
@@ -26,31 +31,6 @@ const questions = [
     options: ["COBOL", "Python", "Ruby", "Java"],
     answer: "COBOL",
   },
-  {
-    question: "Who is known as the inventor of the World Wide Web?",
-    options: ["Tim Berners-Lee", "Sergey Brin", "Alan Turing", "Richard Stallman"],
-    answer: "Tim Berners-Lee",
-  },
-  {
-    question: "What is Jordan Walke famous for creating?",
-    options: ["TensorFlow", "React.js", "Vue.js", "Angular"],
-    answer: "React.js",
-  },
-  {
-    question: "Which programming language did Bjarne Stroustrup develop?",
-    options: ["Java", "C++", "C#", "Swift"],
-    answer: "C++",
-  },
-  {
-    question: "What was Alan Turing's major contribution to computing?",
-    options: ["Developed Unix", "Created the first compiler", "Conceptualized the Turing Machine", "Invented HTML"],
-    answer: "Conceptualized the Turing Machine",
-  },
-  {
-    question: "Who co-founded Microsoft?",
-    options: ["Steve Jobs", "Bill Gates", "Elon Musk", "Mark Zuckerberg"],
-    answer: "Bill Gates",
-  }
 ];
 
 const Quiz = () => {
@@ -59,24 +39,39 @@ const Quiz = () => {
   const [score, setScore] = useState(0);
   const [selectedOption, setSelectedOption] = useState(null);
   const [showResult, setShowResult] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(10);
 
   useEffect(() => {
     setShuffledQuestions([...questions].sort(() => Math.random() - 0.5));
   }, []);
+
+  // Memoize handleNextQuestion to avoid re-creating it
+  const handleNextQuestion = useCallback(() => {
+    if (currentQuestion + 1 < shuffledQuestions.length) {
+      setCurrentQuestion((prev) => prev + 1);
+      setSelectedOption(null);
+      setTimeLeft(10);
+    } else {
+      setShowResult(true);
+    }
+  }, [currentQuestion, shuffledQuestions.length]);
+
+  useEffect(() => {
+    if (timeLeft === 0) {
+      handleNextQuestion();
+    }
+    const timer = setInterval(() => {
+      setTimeLeft((prev) => (prev > 0 ? prev - 1 : 0));
+    }, 1000);
+    return () => clearInterval(timer);
+  }, [timeLeft, handleNextQuestion]);
 
   const handleAnswer = (option) => {
     setSelectedOption(option);
     if (option === shuffledQuestions[currentQuestion].answer) {
       setScore(score + 1);
     }
-    setTimeout(() => {
-      if (currentQuestion + 1 < shuffledQuestions.length) {
-        setCurrentQuestion(currentQuestion + 1);
-        setSelectedOption(null);
-      } else {
-        setShowResult(true);
-      }
-    }, 1000);
+    setTimeout(handleNextQuestion, 1000);
   };
 
   const restartQuiz = () => {
@@ -85,6 +80,7 @@ const Quiz = () => {
     setScore(0);
     setSelectedOption(null);
     setShowResult(false);
+    setTimeLeft(10);
   };
 
   return (
@@ -98,7 +94,10 @@ const Quiz = () => {
         </div>
       ) : (
         <div className="question-container">
-          <h3 className="question">{shuffledQuestions[currentQuestion]?.question}</h3>
+          <div className="timer">{timeLeft} sec</div>
+          <h3 className="question">
+            {shuffledQuestions[currentQuestion]?.question}
+          </h3>
           <div className="options-container">
             {shuffledQuestions[currentQuestion]?.options.map(
               (option, index) => (
